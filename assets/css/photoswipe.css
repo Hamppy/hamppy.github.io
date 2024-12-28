@@ -53,6 +53,7 @@
 
 .pswp img {
   max-width: none;
+  border-radius: 10px;
 }
 
 .pswp--open {

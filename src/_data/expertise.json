@@ -1,14 +1,20 @@
 {
-  "title":"Expertise",
+  "title1":"Experience in",
   "expertIn": 
-  ["Customer Experience Design",
-    "Digital Products",
-    "Development",
-    "Campaign & Content",
-    "Employer Branding",
+  [
+    "User Experience Design",
+    "Design Systems & Component Libraries",
     "Animation & Motion Graphics",
-    "Packaging & Product Design",
-    "Retail & Spacial",
-    "Print & Editorial DesignPrint & Editorial Design",
-    "Concept/Text","Information Design"]
+    "Retail & Spacial Design + Production",
+    "Campaign & Content Design + Production",
+    "Print & Editorial Design + Production"
+  ],
+  "title2":"Beginner with",
+  "beginnerWith":
+  [
+    "Data-Driven Design",
+    "Information Design",
+    "AI Aided Design",
+    "Front-End Development"
+  ]
 }

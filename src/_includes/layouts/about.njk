@@ -10,6 +10,10 @@
                 {{content | safe}}
               </div>
               <div class="site-about-description">
+                <p><strong>
+                  {{hdr}}
+                </strong></p>
+                <br />
                 <p>
                   {{des}}
                 </p>
@@ -25,13 +29,27 @@
         <div class="row">
           <div class="col-md-5">
             <div class="section-title">
-              <h2>{{expertise.title}}</h2>
+              <h3>{{expertise.title1}}</h3>
             </div>
           </div>
           <div class="col-md-6">
             <ul class="site-expertise-list">
               {% for expertIn in expertise.expertIn %}
               <li>{{expertIn}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="section-title">
+              <h3>{{expertise.title2}}</h3>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="site-expertise-list">
+              {% for beginnerWith in expertise.beginnerWith %}
+              <li>{{beginnerWith}}</li>
               {% endfor %}
             </ul>
           </div>
@@ -43,13 +61,13 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="section-title">
-              <h2>{{clients.title}}</h2>
+            <div class="section-title-centered">
+              <h3>{{clients.title}}</h3>
             </div>
             <div class="site-client-wrapper">
               {% for trustedClient in clients.trustedClients %}
               <div class="site-client-item">
-                <img src="{{trustedClient}}" alt="client-logo">
+                <a href="{{trustedClient.link}}" target="_blank"><img src="{{trustedClient.icon}}" alt="client-logo"></a>
               </div> 
               {% endfor %}
             </div>
@@ -58,7 +76,7 @@
       </div>
     </section>
 
-    <section class="site-team">
+    {# <section class="site-team">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -92,5 +110,5 @@
           {% endfor %}
         </div>
       </div>
-    </section>
+    </section> #}
 {% endblock %}

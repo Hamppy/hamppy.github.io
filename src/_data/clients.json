@@ -1,14 +1,30 @@
 {
-  "title": "Who trust our judgment",
+  "title": "Tools I currently work with",
   "trustedClients": 
-  ["./assets/images/clients/client-logo-one.png",
-    "./assets/images/clients/client-logo-two.png",
-    "./assets/images/clients/client-logo-three.png",
-    "./assets/images/clients/client-logo-four.png",
-    "./assets/images/clients/client-logo-five.png",
-    "./assets/images/clients/client-logo-six.png",
-    "./assets/images/clients/client-logo-seven.png",
-    "./assets/images/clients/client-logo-eight.png",
-    "./assets/images/clients/client-logo-nine.png",
-    "./assets/images/clients/client-logo-ten.png"]
+  [
+    {
+    "link":"https://www.adobe.com/creativecloud.html",
+    "icon":"/assets/images/tools/adobe-cc.svg"
+    },
+    {
+    "link":"https://affinity.serif.com/en-gb/",
+    "icon":"/assets/images/tools/affinity.svg"
+    },
+    {
+    "link":"https://www.figma.com/",
+    "icon":"/assets/images/tools/figma.svg"
+    },
+    {
+    "link":"https://code.visualstudio.com/",
+    "icon":"/assets/images/tools/visual-studio-code.svg"
+    },
+    {
+    "link":"https://www.docker.com/",
+    "icon":"/assets/images/tools/docker.svg"
+    },
+    {
+    "link":"https://www.atlassian.com/",
+    "icon":"/assets/images/tools/atlassian.svg"
+    }
+  ]
 }
