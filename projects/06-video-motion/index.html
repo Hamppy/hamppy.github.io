@@ -102,6 +102,37 @@
     preload: [1, 1]
     });
   lightbox.init();
+
+  document.addEventListener("DOMContentLoaded", function () {
+  const gallery = document.getElementById("project-gallery");
+  const iframes = gallery.querySelectorAll("iframe");
+
+  function adjustIframes() {
+    const screenWidth = window.innerWidth;
+
+    iframes.forEach((iframe) => {
+      const breakpoint = iframe.dataset.breakpoint;
+
+      // Reset visibility
+      iframe.classList.add("hidden");
+
+      if (screenWidth < 575 && breakpoint === "mobile") {
+        iframe.classList.remove("hidden");
+      } else if (screenWidth >= 575 && screenWidth < 768 && breakpoint === "tablet") {
+        iframe.classList.remove("hidden");
+      } else if (screenWidth >= 1199 && breakpoint === "desktop") {
+        iframe.classList.remove("hidden");
+      }
+    });
+  }
+
+  // Initial adjustment
+  adjustIframes();
+
+  // Adjust on window resize
+  window.addEventListener("resize", adjustIframes);
+});
+
 </script>
   
 
@@ -174,10 +205,10 @@
               <h5 class="site-footer-widget-title">I&#39;m currently learning:</h5>
               <p class="site-footer-widget-description">
               
-                - Front-end Development
+                - Front-End Development
                 <br>
               
-                - Spotify Backstage
+                - Git Version Control
                 <br>
               
                 - AI &amp; Accessibility

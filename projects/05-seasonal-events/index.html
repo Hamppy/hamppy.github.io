@@ -90,6 +90,229 @@
     <div class="row">
       <!-- Manually loop through featureImgs and descriptions using their index -->
       
+      <div class="col-12 site-project-single-description">
+        <h3>Bought Media Platfrom Advertising for OP Mortgages</h3>
+        <img id="facade" src="/assets/images/projects/web/fathers-day.jpg" alt="Sample image for Bought Media Platfrom Advertising for OP Mortgages" class="img-fluid">
+        <!-- Figma embed -->
+        <div class="proto-gallery" id="project-gallery">
+          
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+        </div>
+        <!-- Responsive web samples -->
+        <div class="gallery" id="project-gallery">
+          
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+        </div>
+        <!-- Poster samples -->
+        <div class="poster-gallery" id="project-gallery">
+          
+            
+          
+            
+              
+                <a href="/assets/images/projects/poster/IIHC2013.jpg" data-pswp-height="1340" data-pswp-width="960" target="_blank">
+                  <img src="/assets/images/projects/poster/IIHC2013.jpg" alt="Print layout of Bought Media Platfrom Advertising for OP Mortgages" class="img-fluid">
+                </a>
+              
+            
+          
+            
+              
+                <a href="/assets/images/projects/poster/hoktoberfest.jpg" data-pswp-height="1340" data-pswp-width="960" target="_blank">
+                  <img src="/assets/images/projects/poster/hoktoberfest.jpg" alt="Print layout of Bought Media Platfrom Advertising for OP Mortgages" class="img-fluid">
+                </a>
+              
+            
+          
+            
+              
+                <a href="/assets/images/projects/poster/fathers-day.jpg" data-pswp-height="1340" data-pswp-width="960" target="_blank">
+                  <img src="/assets/images/projects/poster/fathers-day.jpg" alt="Print layout of Bought Media Platfrom Advertising for OP Mortgages" class="img-fluid">
+                </a>
+              
+            
+          
+            
+              
+                <a href="/assets/images/projects/poster/beer-festivals.jpg" data-pswp-height="1340" data-pswp-width="960" target="_blank">
+                  <img src="/assets/images/projects/poster/beer-festivals.jpg" alt="Print layout of Bought Media Platfrom Advertising for OP Mortgages" class="img-fluid">
+                </a>
+              
+            
+          
+            
+              
+                <a href="/assets/images/projects/poster/virgin-oil-summer.jpg" data-pswp-height="1340" data-pswp-width="960" target="_blank">
+                  <img src="/assets/images/projects/poster/virgin-oil-summer.jpg" alt="Print layout of Bought Media Platfrom Advertising for OP Mortgages" class="img-fluid">
+                </a>
+              
+            
+          
+            
+              
+                <a href="/assets/images/projects/poster/sochi-olympics.jpg" data-pswp-height="1340" data-pswp-width="960" target="_blank">
+                  <img src="/assets/images/projects/poster/sochi-olympics.jpg" alt="Print layout of Bought Media Platfrom Advertising for OP Mortgages" class="img-fluid">
+                </a>
+              
+            
+          
+        </div>
+        <!-- HTML5 shell samples -->
+        <div class="shell-gallery" id="project-gallery">
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+        <!-- Vertical video samples -->
+        <div class="mp4-vrt-gallery row">
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+        <!-- Horizontal video samples -->
+        <div class="mp4-hrz-gallery row">
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+         <!-- YouTube video samples -->
+         <div class="mp4-hrz-gallery row">
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+        <!-- Brand samples -->
+        <div class="brand-gallery" id="project-gallery">
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+        <!-- Layouts (if any) -->
+        
+        <div class="collapse" id="collapseExample1">
+          <div class="card card-body">
+            
+          </div>
+        </div>
+        <!-- Project description -->
+        <p class="case-legend">Virgin Oil Co. took a first step for visual refreshment during the summer 2013. This traditional italian american restaurant in the centre of Helsinki was opened back in 2010 so the time was right for some adjustments. A new marketing strategy according to certain customer profiles was drawn up and original visual identity decomposed for analysis. The name Virgin Oil Co. is an imaginary title for a fictive olive oil importer located in New York during 1920’ies. The location, decade and theme itself were retained, but aesthetically refined for more sophisticated and simplified look. Naturally the table menu was the first utensil to be updated.
+
+<strong>Content Producers</strong>: Hanna-Mari Kärri, Marianna Nolvi & Marika Pitkänen
+<strong>Digital Marketing Specialist</strong>: Liisa Tammivuori
+<strong>Clients</strong>: OP Financial Group
+</p>
+      </div>
+      
     </div>
   </div>
 </section>
@@ -102,6 +325,37 @@
     preload: [1, 1]
     });
   lightbox.init();
+
+  document.addEventListener("DOMContentLoaded", function () {
+  const gallery = document.getElementById("project-gallery");
+  const iframes = gallery.querySelectorAll("iframe");
+
+  function adjustIframes() {
+    const screenWidth = window.innerWidth;
+
+    iframes.forEach((iframe) => {
+      const breakpoint = iframe.dataset.breakpoint;
+
+      // Reset visibility
+      iframe.classList.add("hidden");
+
+      if (screenWidth < 575 && breakpoint === "mobile") {
+        iframe.classList.remove("hidden");
+      } else if (screenWidth >= 575 && screenWidth < 768 && breakpoint === "tablet") {
+        iframe.classList.remove("hidden");
+      } else if (screenWidth >= 1199 && breakpoint === "desktop") {
+        iframe.classList.remove("hidden");
+      }
+    });
+  }
+
+  // Initial adjustment
+  adjustIframes();
+
+  // Adjust on window resize
+  window.addEventListener("resize", adjustIframes);
+});
+
 </script>
   
 
@@ -174,10 +428,10 @@
               <h5 class="site-footer-widget-title">I&#39;m currently learning:</h5>
               <p class="site-footer-widget-description">
               
-                - Front-end Development
+                - Front-End Development
                 <br>
               
-                - Spotify Backstage
+                - Git Version Control
                 <br>
               
                 - AI &amp; Accessibility
