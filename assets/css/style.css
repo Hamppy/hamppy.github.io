@@ -50,6 +50,18 @@ h6 {
   font-weight: 400;
   color: #FFFFFF;
 }
+.youtube-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  .youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+}
 .bold {
   font-weight:600;
 }
@@ -77,28 +89,31 @@ h6 {
       border-radius: 4px;
     }
 }
-.shell-gallery iframe {
-  display: none;
+.shell-gallery {
+  margin-top: 1rem;
+    iframe {
+    display: none;
+    }
 }
 .mp4-vrt-gallery {
   justify-content: center;
   column-gap: 12px;
   padding: 0 !important;
     video {
-      width: 100%;
       max-width: 480px;
       margin-bottom: 1rem;
       border-radius: 4px;
     }
 }
 .mp4-hrz-gallery {
-  justify-content: center;
-  column-gap: 12px;
-  padding: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
     video {
       width: 100%;
-      max-width: 920px;
+      max-width: 720px;
       margin-bottom: 1rem;
+      border-radius: 5px;
     }
 }
 #facade {
@@ -494,7 +509,7 @@ textarea.form-control {
 }
 
 .site-project, .site-blog {
-  padding: 150px 0 100px 0;
+  padding: 0px 0 100px 0;
   background-color: #fff;
   overflow: hidden;
 }
@@ -576,12 +591,12 @@ textarea.form-control {
   transform-origin: left;
 }
 .site-project-header {
-  padding: 120px 0 60px;
-  background: #F7F9FF;
+  padding: 120px 0 0px;
+  background: #FFFFFF;
 }
 @media (max-width: 767px) {
   .site-project-header {
-    padding: 120px 0 80px;
+    padding: 120px 0 0px;
   }
 }
 .site-project-header-content h1 {
@@ -972,6 +987,11 @@ textarea.form-control {
   width: 60%;
   padding-left: 50px;
 }
+.projects-introductory {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
 @media (max-width: 991px) {
   .site-about-description {
     width: 100%;
@@ -983,7 +1003,6 @@ textarea.form-control {
   font-weight: 300;
   margin-bottom: 0;
 }
-
 .site-expertise {
   padding: 50px 0 50px 0;
   background: #F7F9FF;
@@ -1028,8 +1047,8 @@ textarea.form-control {
   width: 16%;
   margin-bottom: 50px;
     img {
-      width: 128px;
-      height: 128px;
+      width: 96px;
+      height: 96px;
     }
 }
 @media (max-width: 991px) {
@@ -1223,6 +1242,12 @@ textarea.form-control {
   .site-footer-widget-top {
     text-align: center;
     display: block;
+  }
+  .mp4-vrt-gallery video {
+    width: 300px;
+    max-width: 720px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
   }
 }
 .site-footer-widget-top img {
