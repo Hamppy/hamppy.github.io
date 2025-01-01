@@ -14,7 +14,9 @@
       {% for case in cases %}
       <div class="col-12 site-project-single-description">
         <h3>{{ case.header }}</h3>
-        <img id="facade" src="{{ case.images[0] }}" alt="Sample image for {{ case.header }}" class="img-fluid">
+        {% if case.images and case.images[0] and case.images[0].endsWith('.jpg') %}
+          <img id="facade" src="{{ case.images[0] }}" alt="Sample image for {{ case.header }}" class="img-fluid">
+        {% endif %}
         <!-- Figma embed -->
         <div class="proto-gallery" id="project-gallery">
           {% for image in case.images %}
@@ -81,7 +83,7 @@
           {% endfor %}
         </div>
         <!-- Horizontal video samples -->
-        <div class="mp4-hrz-gallery row">
+        <div class="mp4-hrz-gallery">
           {% for image in case.images %}
             {% if image.indexOf('landscape') > -1 %}
               <video controls>
@@ -90,11 +92,11 @@
             {% endif %}
           {% endfor %}
         </div>
-         <!-- YouTube video samples -->
-         <div class="mp4-hrz-gallery row">
+        <!-- YouTube video samples -->
+         <div class="youtube-gallery">
           {% for image in case.images %}
             {% if image.indexOf('youtube') > -1 %}
-              <video src="{{ image }}" alt="Print layout of {{ case.header }}" class="img-fluid">
+              <iframe class="youtube-video" src="{{ image }}" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             {% endif %}
           {% endfor %}
         </div>

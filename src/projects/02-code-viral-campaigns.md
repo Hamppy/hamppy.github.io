@@ -4,17 +4,15 @@ title: "Responsive web + print"
 tags: portfolio
 order: 2
 img: "/assets/images/projects/rgb-cmyk-thumb.jpg"
-linkText: "view project"
+linkText: "Take a look at the samples"
 cases:
   - header: "Reima Member-Get-Member Campaign"
     description: |
-        Campaign for garment and kid’s wear manufacturer/reseller. Reima started to supply the army with garments during the II world war and soon grew to be a scandinavian exporter of kid’s clothes by the end of the 1950’s. Today Reima is top-of-the-class provider and innovator of weatherproof clothing products with plans to upgrade the catalog with smartwear technology.
-
-        Another paragraph...
-
-        <strong>Campaign concept</strong>: Pekka Räsänen & Anssi Ruokonen
-        <strong>Content producer</strong>: Hanna Huotarinen
-        <strong>Front-End Developer</strong>: Vesa Vuoristo
+        Digital campaign for garment and kid’s wear manufacturer/reseller Reima to increase the amount of Club memberships. Reima started to supply the army with garments during World War II and soon grew to be a scandinavian exporter of kid’s clothes by the end of the 1950’s. Campaing was initiated by delivering a printed self-mailer with subscription codes to existing pre-selected customers who were then enabled to invite potential new customers to join. Today Reima is top-of-the-class provider and innovator of kid's weatherproof clothing products.<br>
+        <br>
+        <strong>Campaign concept</strong>: Pekka Räsänen & Anssi Ruokonen<br>
+        <strong>Content producer</strong>: Hanna Huotarinen<br>
+        <strong>Front-End Developer</strong>: Vesa Vuoristo<br>
         <strong>Client</strong>: Reima Oy
     images:
       - "/assets/images/projects/web/reima.jpg"
@@ -29,10 +27,10 @@ cases:
 
   - header: "Budget Sport Winter Festival"
     description: |
-        Campaign for sport equipment and clothing retail chain Budget Sport, which is a sub label chain of Intersport Finland. Currently there are total of ten department stores plus an online shop with extensive range of sport brands and recreational items within affordable price range.
-
-        <strong>Content Producer</strong>: Hanna Huotarinen
-        <strong>Front-End Developer</strong>: Vesa Vuoristo
+        Digital campaign for sport equipment and clothing retail chain Budget Sport, which is a sub label chain of Intersport Finland and part of K Group. Campaing was initiated by distributing pre-coded coupons through department stores and the goal was to obtain new marketing permits and email subscribers.<br>
+        <br>
+        <strong>Content Producer</strong>: Hanna Huotarinen<br>
+        <strong>Front-End Developer</strong>: Vesa Vuoristo<br>
         <strong>Client</strong>: Intersport Finland Oy / Budget Sport
     images:
       - "/assets/images/projects/web/budgetsport.jpg"
@@ -48,10 +46,9 @@ cases:
 
   - header: "Kärkkäinen Christmas Lottery"
     description: |
-        Campaign for Northern Ostrobothnia based retail department chain Kärkkäinen. Originally Juha Kärkkäinen started the company back in 1988 by selling goods from a retail truck. The first shop in Ylivieska was opened in 1991 and currently the company has four large department stores and also webshop with over 80 000 products.
-
-        <strong>Content Producer</strong>: Hanna Huotarinen
-        <strong>Front-End Developer</strong>: Vesa Vuoristo
+        Digital campaign for Northern Ostrobothnia based retail department chain Kärkkäinen. Campaing was initiated by distributing pre-coded coupons through department stores and the goal was to obtain new marketing permits and email subscribers.<br><br>
+        <strong>Content Producer</strong>: Hanna Huotarinen<br>
+        <strong>Front-End Developer</strong>: Vesa Vuoristo<br>
         <strong>Client</strong>: J. Kärkkäinen Oy
     images:
       - "/assets/images/projects/web/karkkainen.jpg"
@@ -67,13 +64,19 @@ cases:
 
   - header: "Stockmann Crazy Days"
     description: |
-        Campaign for the semi-annual discount event of Stockmann Retail Shopping Gallery. Crazy Days takes place on spring and on autumn within five days from Wednesday to Sunday. During that period the retail galleries as well as the online store are offering class brand products with affordable prices and limited time/amount only availability.
-
-        <strong>Content Producer</strong>: Hanna Huotarinen
-        <strong>Front-End Developer:</strong> Vesa Vuoristo
+        Campaign for the semi-annual discount event of Stockmann Retail Shopping Gallery. Crazy Days takes place on spring and on autumn within five days from Wednesday to Sunday. During that period the retail galleries as well as the online store are offering class brand products with affordable prices and limited time/amount only availability. Campaing was initiated by distributing pre-coded coupons through department stores and the goal was to obtain new marketing permits and email subscribers.<br>
+        <br>
+        <strong>Content Producer</strong>: Hanna Huotarinen<br>
+        <strong>Front-End Developer:</strong> Vesa Vuoristo<br>
         <strong>Client</strong>: Stockmann Oyj Abp
     images:
       - "/assets/images/projects/web/hullut-paivat.jpg"
       - "/assets/images/projects/web/hullut-paivat-index.jpg"
       - "/assets/images/projects/web/hullut-paivat-result.jpg"
+      - "/assets/images/projects/web/hullut-paivat-invites.jpg"
+      - "/assets/images/projects/web/hullut-paivat-flyers.jpg"
+    layouts:
+      - "/assets/images/projects/layouts/hullut-paivat-index-layout.jpg"
+      - "/assets/images/projects/layouts/hullut-paivat-result-layout.jpg"
+      - "/assets/images/projects/layouts/hullut-paivat-flyers-layout.jpg"
 ---
