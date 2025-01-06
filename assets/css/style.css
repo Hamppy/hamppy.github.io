@@ -68,9 +68,6 @@ h6 {
 .case-legend {
   margin-top: 33px;
 }
-.row {
-  padding: 20px 0 20px 0;
-}
 .gallery {
   max-width: 100%;
   column-count: 4;
@@ -226,7 +223,7 @@ body {
 }
 
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   text-align: right;
 }
 
@@ -592,7 +589,7 @@ textarea.form-control {
   transform-origin: left;
 }
 .site-project-header {
-  padding: 120px 0 0px;
+  padding: 120px 0 20px;
   background: #FFFFFF;
 }
 @media screen and (max-width: 767px) {
@@ -1010,11 +1007,12 @@ textarea.form-control {
 }
 .site-expertise-list {
   padding: 0;
+  margin-bottom: 50px;
 }
 @media screen and (max-width: 575px) {
   .site-expertise-list {
     text-align: center;
-    margin: 0;
+    margin-bottom: 50px;
   }
 }
 .site-expertise-list li {
