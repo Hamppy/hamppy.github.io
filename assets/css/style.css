@@ -962,7 +962,7 @@ textarea.form-control {
   flex-wrap: wrap;
 }
 .site-about-company {
-  background: #c8c8c8;
+  background: linear-gradient(180deg, rgba(48,76,111,1) 0%, rgba(0,17,62,1) 100%);
   width: 40%;
   padding: 70px 38px;
   border-radius: 10px;
@@ -978,7 +978,6 @@ textarea.form-control {
   font-weight: 400;
   font-size: 25px;
   line-height: 60px;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 .site-about-description {
