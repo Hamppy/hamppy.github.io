@@ -5,7 +5,6 @@ PROJECT:	Roxo HTML
 VERSION:	1.0.0
 -------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
 
 .tag {
@@ -230,6 +229,12 @@ body {
 .section-title-centered {
   margin-bottom: 70px;
   text-align: center;
+}
+.tool-title-centered h3 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 991px) {
@@ -967,17 +972,22 @@ textarea.form-control {
   padding: 70px 38px;
   border-radius: 10px;
 }
+.site-about-description .emphasis {
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 133%;
+}
 @media screen and (max-width: 991px) {
   .site-about-company {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
 .site-about-company h1 {
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 25px;
-  line-height: 60px;
+  line-height: 166%;
   letter-spacing: 1px;
 }
 .site-about-description {
@@ -1006,12 +1016,15 @@ textarea.form-control {
 }
 .site-expertise-list {
   padding: 0;
-  margin-bottom: 50px;
 }
 @media screen and (max-width: 575px) {
   .site-expertise-list {
     text-align: center;
     margin-bottom: 50px;
+  }
+  .site-about-description {
+    width: 100%;
+    padding: 20px 20px 0 20px;
   }
 }
 .site-expertise-list li {
@@ -1025,8 +1038,9 @@ textarea.form-control {
 }
 
 .site-client {
-  padding: 0 0 50px;
-  background: #F7F9FF;
+  padding-top: 50px;
+  background: #FFF;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.09);
 }
 .site-client .section-title {
   margin-bottom: 100px;
@@ -1034,11 +1048,9 @@ textarea.form-control {
 .site-client-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 @media screen and (max-width: 991px) {
-  .site-client-wrapper {
-    justify-content: center;
-  }
 }
 .site-client-item {
   text-align: center;
@@ -1075,6 +1087,12 @@ textarea.form-control {
 }
 @media screen and (max-width: 767px) {
   .site-team-member {
+    text-align: center;
+  }
+  .site-about-description {
+    padding-top: 20px;
+  }
+  .site-expertise-list {
     text-align: center;
   }
 }
