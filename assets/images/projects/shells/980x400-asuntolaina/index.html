@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>940x400</title>
+
+	  <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://s1.adform.net/banners/scripts/rmb/Adform.DHTML.js"></script>
+  </head>
+  <body>
+    <div class="banner hide" id="banner">
+      <img class="bg" src="img/bg.jpg" alt="" />
+		  <div class="container">
+        <div class="text">
+          <div class="otsikko">You create the home. We make it possible.</div>
+          <div class="cta">
+            <div class="cta-text">Apply for a mortgage</div>
+          </div>
+          <div class="disclaimer">The home loan is granted by an OP cooperative bank.</div>
+        </div>
+        <img class="logo" src="img/logo.png" alt=""/>
+		  </div>
+    </div>
+    <script>
+  		var banner = document.getElementById('banner');
+  		clickTAGvalue = dhtml.getVar('clickTAG', 'https://www.op.fi/en/private-customers/loans-and-homes/home-loan'); //banner will receive clickTAG value - if not defined, banner will land to example.com
+  		landingpagetarget = dhtml.getVar('landingPageTarget', '_blank'); //landingPageTarget variable enables to change target from Adform system.
+
+  		banner.onclick = function() {
+  		   window.open(clickTAGvalue,landingpagetarget); //when banner is clicked it will open new window directing to clickTAG value
+  		}
+  	</script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  	<script src="script/script.js"></script>
+  </body>
+</html>

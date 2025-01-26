@@ -1,0 +1,15 @@
+{
+ "version": "1.0",
+ "title": "op-asuntolaina-980x400",
+ "description": "",
+ "width" : "980",
+ "height": "400",
+ "events": {
+ "enabled": 1,
+ "list": { }
+ },
+ "clicktags": {
+ "clickTAG": "http://www.adform.com"
+ },
+ "source": "index.html"
+}

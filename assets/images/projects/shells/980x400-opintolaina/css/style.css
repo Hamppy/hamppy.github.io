@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'OP Chevin Pro Light';
+  src: url('https://s3-eu-west-1.amazonaws.com/op-yritysmobiili-2018/chevin-light.eot');/* IE9 Compat Modes */
+  src: url('https://s3-eu-west-1.amazonaws.com/op-yritysmobiili-2018/chevin-light.woff2') format('woff2'), /* Super Modern Browsers */
+  url('https://s3-eu-west-1.amazonaws.com/op-yritysmobiili-2018/chevin-light.woff') format('woff'), /* Pretty Modern Browsers */
+  url('https://s3-eu-west-1.amazonaws.com/op-yritysmobiili-2018/chevin-light.ttf') format('truetype');/* Safari, Android, iOS */
+}
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+ html{
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+ }
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  background-size: cover;
+  font-family: "OP Chevin Pro Light", sans-serif;
+  color: #fff;
+  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+}
+
+.banner {
+	background-color: #fff;
+  width:980px;
+	height:400px;
+	display:block;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	position:absolute;
+	cursor:pointer;
+  border: 1px solid #e2e2e2;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.bg{
+  position: absolute;
+  left:0px;
+  bottom:0px;
+}
+
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+	width:900px;
+	height:340px;
+	margin: 30px;
+  margin-left: 40px;
+}
+
+.text{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 540px;
+}
+.otsikko {
+  font-size: 54px;
+  letter-spacing: -2px;
+  line-height: 56px;
+}
+.alaotsikko {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.cta{
+  text-shadow: none;
+  margin-top: 30px;
+  width: 170px;
+  height:40px;
+  background: #ff6a10;
+  border-radius: 50px;
+  font-size: 17px;
+}
+
+.cta-text{
+  text-align: center;
+  padding: 9px;
+}
+
+.disclaimer {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.logo {
+  position: absolute;
+	right:0px;
+  bottom:0px;
+	height: 60px;
+  webkit-filter: drop-shadow(5px 5px 5px #6d6d6d);
+  filter: drop-shadow(5px 5px 5px #6d6d6d);
+}

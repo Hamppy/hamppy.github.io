@@ -1,0 +1,42 @@
+{
+  "title": "Tools I currently use to both work and study further",
+  "trustedTools": 
+  [
+    {
+    "link":"https://www.adobe.com/creativecloud.html",
+    "icon":"/assets/images/tools/adobe-cc.svg"
+    },
+    {
+    "link":"https://affinity.serif.com/en-gb/",
+    "icon":"/assets/images/tools/affinity.svg"
+    },
+    {
+    "link":"https://www.figma.com/",
+    "icon":"/assets/images/tools/figma.svg"
+    },
+    {
+    "link":"https://www.mural.co/",
+    "icon":"/assets/images/tools/mural.svg"
+    },
+    {
+    "link":"https://code.visualstudio.com/",
+    "icon":"/assets/images/tools/visual-studio-code.svg"
+    },
+    {
+    "link":"https://github.com/",
+    "icon":"/assets/images/tools/github.svg"
+    },
+    {
+    "link":"https://www.docker.com/",
+    "icon":"/assets/images/tools/docker.svg"
+    },
+    {
+    "link":"https://backstage.io/",
+    "icon":"/assets/images/tools/backstage.svg"
+    },
+    {
+    "link":"https://www.atlassian.com/",
+    "icon":"/assets/images/tools/atlassian.svg"
+    }
+  ]
+}

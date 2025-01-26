@@ -1,0 +1,21 @@
+{
+  "title1":"Experience in",
+  "expertIn": 
+  [
+    "User Interface & User Experience Design",
+    "Design Systems & Component Libraries",
+    "Marketing Automation Design & Production",
+    "Animation & Motion Graphics",
+    "Retail & Spacial Design + Production",
+    "Campaign & Content Design + Production",
+    "Print & Editorial Design + Production"
+  ],
+  "title2":"Beginner with",
+  "beginnerWith":
+  [
+    "Data-Driven Design",
+    "Information Design",
+    "AI Aided Design",
+    "Front-End Development"
+  ]
+}
