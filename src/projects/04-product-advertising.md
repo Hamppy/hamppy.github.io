@@ -4,6 +4,7 @@ title: "Purchasables"
 tags: portfolio
 order: 4
 img: "/assets/images/projects/advertising-thumb.jpg"
+alt: "Image for itemizing advertising category"
 linkText: "Take a look at the samples"
 cases:
   - header: "Bought Media Platfrom Advertising for OP Mortgages"

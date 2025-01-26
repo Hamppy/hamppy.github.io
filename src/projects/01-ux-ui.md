@@ -4,6 +4,7 @@ title: "Web & App"
 tags: portfolio
 order: 1
 img: "/assets/images/projects/rgb-thumb.jpg"
+alt: "Image for itemizing UX / UI category"
 linkText: "Take a look at the samples"
 cases:
   - header: "Veng (Concept)"

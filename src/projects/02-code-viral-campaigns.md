@@ -4,6 +4,7 @@ title: "Responsive web + print"
 tags: portfolio
 order: 2
 img: "/assets/images/projects/rgb-cmyk-thumb.jpg"
+alt: "Image for itemizing responsive web and print category"
 linkText: "Take a look at the samples"
 cases:
   - header: "Reima Member-Get-Member Campaign"

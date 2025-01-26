@@ -4,6 +4,7 @@ title: "Screenworks"
 tags: portfolio
 order: 6
 img: "/assets/images/projects/screenworks-thumb.jpg"
+alt: "Image for itemizing screenworks category"
 linkText: "Take a look at the samples"
 cases:
   - header: "That's Hotelzon"

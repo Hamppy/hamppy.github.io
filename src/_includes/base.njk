@@ -42,9 +42,10 @@
         </a>
         <button
           class="navbar-toggler collapsed"
-          type="button"
+          input-type="button"
           data-toggle="collapse"
           data-target="#sitenavbar"
+          aria-label="Menu"
         >
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -55,22 +56,13 @@
           <ul class="navbar-nav ml-auto main-nav">
             {% for navLink in nav.navLinks %}
             <li class="nav-item">
-              {% if navLink == "home" %}
+              {% if navLink == "home" and page.url != "/" %}
                 <a class="nav-link" href="/">{{navLink | capitalize}}</a>
-              {% else %}
+              {% elif navLink != "home" and page.url != "/" + navLink %}
                 <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a> 
               {% endif %} 
             </li>
             {% endfor %}
-{#            <li class="nav-item">
-               <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="/{{nav.navBtnLink}}">
-                <span class="btn-area">
-                  <span data-text="{{nav.navBtnText}}">
-                    {{nav.navBtnText}}
-                  </span>
-                </span>
-              </a> 
-            </li> #}
           </ul>
         </div>
       </div>
@@ -122,7 +114,7 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="site-footer-widget">
-              <h5 class="site-footer-widget-title">{{footer.contactsHeading}}</h5>
+              <p class="site-footer-widget-title">{{footer.contactsHeading}}</p>
               <p class="site-footer-widget-description">
               {% for contactInfo in footer.contactsInfo %}
                 <a href="{{contactInfo.link}}{{contactInfo.text}}">a.j.hamalainen@outlook.com</a>
@@ -133,7 +125,17 @@
           </div>
           <div class="col-lg-2 col-md-6">
             <div class="site-footer-widget">
-              <h5 class="site-footer-widget-title">{{footer.siteMapHeading}}</h5>
+              <p class="site-footer-widget-title">{{footer.socialHeading}}</p>
+              <ul class="site-footer-widget-links">
+                {% for socialMedia in footer.socialMedia %}
+                <li><a href="https://www.linkedin.com/in/anttijoonas" target="_blank">{{socialMedia.text}}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="site-footer-widget">
+              <p class="site-footer-widget-title">{{footer.siteMapHeading}}</p>
               <ul class="site-footer-widget-links">
                 {% for siteMap in footer.siteMap %}
                  <li>
@@ -143,22 +145,12 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-2 col-md-6">
-            <div class="site-footer-widget">
-              <h5 class="site-footer-widget-title">{{footer.socialHeading}}</h5>
-              <ul class="site-footer-widget-links">
-                {% for socialMedia in footer.socialMedia %}
-                <li><a href="https://www.linkedin.com/in/anttijoonas" target="_blank">{{socialMedia.text}}</a></li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
           <div class="col-lg-3 col-md-6">
             <div class="site-footer-widget">
-              <h5 class="site-footer-widget-title">{{footer.brandHeading}}</h5>
+              <p class="site-footer-widget-title">{{footer.brandHeading}}</p>
               <p class="site-footer-widget-description">
               {% for brandMotto in footer.brandMotto %}
-                - {{brandMotto}}
+                {{brandMotto}}
                 <br>
               {% endfor %}
               </p>
@@ -166,10 +158,10 @@
           </div>
           <div class="col-lg-2 col-12">
             <div class="site-footer-widget">
-              <h5 class="site-footer-widget-title">{{footer.learnHeading}}</h5>
+              <p class="site-footer-widget-title">{{footer.learnHeading}}</p>
               <p class="site-footer-widget-description">
               {% for learnMotto in footer.learnMotto %}
-                - {{learnMotto}}
+                {{learnMotto}}
                 <br>
               {% endfor %}
               </p>

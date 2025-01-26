@@ -4,6 +4,7 @@ title: "Consistencies"
 tags: portfolio
 order: 3
 img: "/assets/images/projects/brand-identities-thumb.jpg"
+alt: "Image for itemizing identity and brand category"
 linkText: "Take a look at the samples"
 cases:
   - header: "Virgin Oil Co menù da tavolo"

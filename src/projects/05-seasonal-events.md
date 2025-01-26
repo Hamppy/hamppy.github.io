@@ -4,6 +4,7 @@ title: "Spectacles"
 tags: portfolio
 order: 5
 img: "/assets/images/projects/spectacles-thumb.jpg"
+alt: "Image for itemizing event category"
 linkText: "Take a look at the samples"
 cases:
   - header: "Season and launch-specific theme visualizations for HOK-Elanto Restaurants"
