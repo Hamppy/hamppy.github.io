@@ -19,6 +19,10 @@
     "icon":"/assets/images/tools/mural.svg"
     },
     {
+    "link":"https://www.drawio.com/",
+    "icon":"/assets/images/tools/drawio.svg"
+    },
+    {
     "link":"https://code.visualstudio.com/",
     "icon":"/assets/images/tools/visual-studio-code.svg"
     },
