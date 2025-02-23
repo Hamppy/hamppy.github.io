@@ -239,7 +239,7 @@ body {
 .tool-title-centered h3 {
   margin-bottom: 50px;
   text-align: center;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 25px;
 }
 
@@ -609,7 +609,11 @@ textarea.form-control {
   }
 }
 .site-project-header-content h1 {
+  margin: 0 auto;
+  padding: 20px 0 20px;
+  max-width: 720px;
   font-size: 25px;
+  font-weight: 300;
   text-align: center;
 }
 .site-project-header-content h1 span {
@@ -979,7 +983,7 @@ textarea.form-control {
   border-radius: 10px;
 }
 .site-about-description .emphasis {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 25px;
   line-height: 133%;
 }
