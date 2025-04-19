@@ -10,9 +10,9 @@
                 {{content | safe}}
               </div>
               <div class="site-about-description">
-                <p class="emphasis">
+                <h2 class="emphasis">
                   {{hdr}}
-                </p>
+                </h2>
                 <br />
                 <p>
                   {{des}}
@@ -68,7 +68,7 @@
             <div class="site-client-wrapper">
               {% for trustedTools in tools.trustedTools %}
               <div class="site-client-item">
-                <a href="{{trustedTools.link}}" target="_blank"><img class="icon" src="{{trustedTools.icon}}" alt="client-logo"></a>
+                <a href="{{trustedTools.link}}" target="_blank"><img class="icon" src="{{trustedTools.icon}}" alt="[{{trustedTools.altText}}]"></a>
               </div> 
               {% endfor %}
             </div>

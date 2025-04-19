@@ -1,5 +1,5 @@
 ---
-subTitle: "IDENTITY / BRAND" 
+subTitle: "Identity / Brand" 
 title: "Consistencies"
 tags: portfolio
 order: 3
@@ -23,6 +23,13 @@ cases:
       - "/assets/images/projects/composites/virgin-oil-menu-03.jpg"
       - "/assets/images/projects/composites/virgin-oil-menu-04.jpg"
       - "/assets/images/projects/composites/virgin-oil-menu-05.jpg"
+    alts:
+      - "Virgin Oil Co table menu with customized folder."
+      - "High angel proto of Virgin Oil Co menu with customized folder."
+      - "Detail of binding mechanism anf coating of the table menu."
+      - "Detail of typography and paper applied in the table menu."
+      - "Another detail of typography and paper applied in the table menu."
+      - "Third detail of typography and paper applied in the table menu."
 
   - header: "Gastropub Stone's"
     description: |
@@ -37,7 +44,12 @@ cases:
       - "/assets/images/projects/poster/stones-unholy-dalliance.jpg"
       - "/assets/images/projects/poster/stones-cards.jpg"
       - "/assets/images/projects/poster/stonespubfi.jpg"
-
+    alts:
+      - "The facade of Gastropub Stone's in Mikonkatu Helsinki Finland."
+      - "Print layout of the table menu at Gastropub Stone's."
+      - "Print layout of a campaign poster content."
+      - "Collection of invitation print layouts."
+      - "Desktop layout of deprecated stonespub.fi."
 
   - header: "Post Control Helsinki"
     description: |
@@ -46,4 +58,6 @@ cases:
         <strong>Clients</strong>: Jukka Kujala, Marko Terävä, Petri Riikonen & Juuso Selin / Post Control Helsinki
     images:
       - "/assets/images/projects/web/postcontrol.jpg"
+    alts:
+      - "Photo of a callcard with the logo and location illustration of Post Control Helsinki."
 ---

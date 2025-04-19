@@ -4,43 +4,53 @@
   [
     {
     "link":"https://www.adobe.com/creativecloud.html",
-    "icon":"/assets/images/tools/adobe-cc.svg"
+    "icon":"/assets/images/tools/adobe-cc.svg",
+    "altText":"Adobe Creative Cloud"
     },
     {
     "link":"https://affinity.serif.com/en-gb/",
-    "icon":"/assets/images/tools/affinity.svg"
+    "icon":"/assets/images/tools/affinity.svg",
+    "altText":"Affinity"
     },
     {
     "link":"https://www.figma.com/",
-    "icon":"/assets/images/tools/figma.svg"
+    "icon":"/assets/images/tools/figma.svg",
+    "altText":"Figma"
     },
     {
     "link":"https://www.mural.co/",
-    "icon":"/assets/images/tools/mural.svg"
+    "icon":"/assets/images/tools/mural.svg",
+    "altText":"Mural"
     },
     {
     "link":"https://www.drawio.com/",
-    "icon":"/assets/images/tools/drawio.svg"
+    "icon":"/assets/images/tools/drawio.svg",
+    "altText":"draw.io"
     },
     {
     "link":"https://code.visualstudio.com/",
-    "icon":"/assets/images/tools/visual-studio-code.svg"
+    "icon":"/assets/images/tools/visual-studio-code.svg",
+    "altText":"Visual Studio Code"
     },
     {
     "link":"https://github.com/",
-    "icon":"/assets/images/tools/github.svg"
+    "icon":"/assets/images/tools/github.svg",
+    "altText":"GitHub"
     },
     {
     "link":"https://www.docker.com/",
-    "icon":"/assets/images/tools/docker.svg"
+    "icon":"/assets/images/tools/docker.svg",
+    "altText":"Docker"
     },
     {
     "link":"https://backstage.io/",
-    "icon":"/assets/images/tools/backstage.svg"
+    "icon":"/assets/images/tools/backstage.svg",
+    "altText":"Spotify Backstage"
     },
     {
     "link":"https://www.atlassian.com/",
-    "icon":"/assets/images/tools/atlassian.svg"
+    "icon":"/assets/images/tools/atlassian.svg",
+    "altText":"Atlassian"
     }
   ]
 }

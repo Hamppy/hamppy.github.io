@@ -1,5 +1,5 @@
 ---
-subTitle: "SERVICE / PRODUCT ADVERTISING" 
+subTitle: "Service / Product Advertising" 
 title: "Purchasables"
 tags: portfolio
 order: 4
@@ -25,6 +25,17 @@ cases:
       - "/assets/images/projects/mp4/vertical/mokkilaina-IGS-1080x1920-8s-B.mp4"
       - "/assets/images/projects/mp4/vertical/sina-teet-kodin-1080x1920-7s-A.mp4"
       - "/assets/images/projects/mp4/vertical/sina-teet-kodin-1080x1920-7s-B.mp4"
+    alts:
+      - "300x600 html5 display advertising shell of OP's home loan."
+      - "300x600 html5 display advertising shell of OP's study loan."
+      - "468x400 html5 display advertising shell of OP's home loan."
+      - "468x400 html5 display advertising shell of OP's study loan."
+      - "980x400 html5 display advertising shell of OP's home loan."
+      - "980x400 html5 display advertising shell of OP's study loan."
+      - "Vertical display advertisement of OP's holiday home loan for Instagram."
+      - "Alternate vertical display advertisement of OP's holiday home loan for Instagram."
+      - "Vertical display advertisement of OP's home loan for Instagram."
+      - "Alternate vertical display advertisement of OP's home loan for Instagram."
       
   - header: "Monthly Beverage - Floating cross-category trojan"
     description: |
@@ -41,6 +52,15 @@ cases:
       - "/assets/images/projects/poster/somersby.jpg"
       - "/assets/images/projects/poster/tuborg-green.jpg"
       - "/assets/images/projects/poster/novelle.jpg"
+    alts:
+      - "Horizontal screen layout of Keisari Lager point-of-purchase advertisement."
+      - "Poster layout of Coca Cola point-of-purchase advertisement."
+      - "Poster layout of Garage Hard Tea point-of-purchase advertisement."
+      - "Poster layout of Gin Lemon point-of-purchase advertisement."
+      - "Poster layout of Golden Cap point-of-purchase advertisement."
+      - "Poster layout of Somersby Double Press point-of-purchase advertisement."
+      - "Poster layout of Tuborg Green point-of-purchase advertisement."
+      - "Poster layout of Novelle Mineral Water point-of-purchase advertisement."
 
   - header: "Champagne Nicolas Feuillatte Piccolo"
     description: |
@@ -53,4 +73,8 @@ cases:
       - "https://www.youtube.com/embed/RR8lhPioCSs?si=5Xd6UNjupDobWXYy&modestbranding=1&rel=0"
       - "https://www.youtube.com/embed/yDcS2ZcFDrY?si=RQlnb7nqoC0P-Oh6&modestbranding=1&rel=0"
       - "https://www.youtube.com/embed/fQdEj-6EdfE?si=hXyVULOlEN4wQ6tv&modestbranding=1&rel=0"
+    alts:
+      - ""
+      - ""
+      - ""
 ---

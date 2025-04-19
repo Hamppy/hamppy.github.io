@@ -8,14 +8,15 @@
 <link rel="stylesheet" href="/assets/css/photoswipe.css">
 
 <section class="site-project-single-section">
+  <h1 class="project-category">{{ subTitle }}</h1>
   <div class="container">
     <div class="row">
       <!-- Manually loop through featureImgs and descriptions using their index -->
       {% for case in cases %}
       <div class="col-12 site-project-single-description">
-        <h3>{{ case.header }}</h3>
+        <h2>{{ case.header }}</h2>
         {% if case.images and case.images[0] and case.images[0].endsWith('.jpg') %}
-          <img id="facade" src="{{ case.images[0] }}" alt="Sample image for {{ case.header }}" class="img-fluid">
+          <img id="facade" src="{{ case.images[0] }}" alt="{{ case.alts[0] }}" class="img-fluid">
         {% endif %}
         <!-- Figma embed -->
         <div class="proto-gallery" id="project-gallery">
@@ -23,7 +24,7 @@
             {% if loop.index > 1 %}
               {% if image.indexOf('proto') > -1 %}
                 <a href="{{ image }}" data-pswp-height="1280" data-pswp-width="680" target="_blank">
-                  <img src="{{ image }}" alt="Print layout of {{ case.header }}" class="img-fluid">
+                  <img src="{{ image }}" alt="{{ case.alts[loop.index0] }} " class="img-fluid">
                 </a>
               {% endif %}
             {% endif %}
@@ -35,11 +36,11 @@
             {% if loop.index > 1 %}
               {% if image.indexOf('web') > -1 %}
                   <a href="{{ image }}" data-pswp-height="855" data-pswp-width="1520" target="_blank">
-                    <img src="{{ image }}" alt="Responsive examples of {{ case.header }}" class="img-fluid">
+                    <img src="{{ image }}" alt="{{ case.alts[loop.index0] }}" class="img-fluid">
                   </a>
               {% elif image.indexOf('print') > -1 %}
                   <a href="{{ image }}" data-pswp-height="1440" data-pswp-width="760" target="_blank">
-                    <img src="{{ image }}" alt="Print layout of {{ case.header }}" class="img-fluid">
+                    <img src="{{ image }}" alt="{{ case.alts[loop.index0] }}" class="img-fluid">
                   </a>
               {% endif %}
             {% endif %}
@@ -51,20 +52,20 @@
             {% if loop.index > 1 %}
               {% if image.indexOf('poster') > -1 %}
                 <a href="{{ image }}" data-pswp-height="1340" data-pswp-width="960" target="_blank">
-                  <img src="{{ image }}" alt="Print layout of {{ case.header }}" class="img-fluid">
+                  <img src="{{ image }}" alt="{{ case.alts[loop.index0] }}" class="img-fluid">
                 </a>
               {% endif %}
             {% endif %}
           {% endfor %}
         </div>
-        <!-- HTML5 shell samples -->
-        <div class="shell-gallery">
+         <!-- HTML5 shell samples -->
+         <div class="shell-gallery">
           {% for image in case.images %}
             {% if image.indexOf('shells') > -1 %}
               <iframe 
                 src="{{ image }}" 
                 data-breakpoint="{% if loop.index < 3 %}mobile{% elif loop.index < 5 %}tablet{% else %}desktop{% endif %}"
-                title="Dynamic content for {{ case.header }}" 
+                title="{{ case.alts[loop.index0] }}" 
                 frameborder="0" 
                 scrolling="no" 
                 class="responsive-iframe hidden">
@@ -77,7 +78,7 @@
           {% for image in case.images %}
             {% if image.indexOf('vertical') > -1 %}
               <video class="vertical-video" controls>
-                <source src="{{ image }}" type="video/mp4">
+                <source src="{{ image }}" alt="{{ case.alts[loop.index0] }}" type="video/mp4">
               </video>
             {% endif %}
           {% endfor %}
@@ -87,7 +88,7 @@
           {% for image in case.images %}
             {% if image.indexOf('landscape') > -1 %}
               <video class="horizontal-video"controls>
-                <source src="{{ image }}" type="video/mp4">
+                <source src="{{ image }}" alt="{{ case.alts[loop.index0] }}" type="video/mp4">
               </video>
             {% endif %}
           {% endfor %}
@@ -96,7 +97,7 @@
          <div class="youtube-gallery">
           {% for image in case.images %}
             {% if image.indexOf('youtube') > -1 %}
-              <iframe class="youtube-video" src="{{ image }}" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe class="youtube-video" src="{{ image }}" title="{{ case.alts[loop.index0] }}" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             {% endif %}
           {% endfor %}
         </div>
@@ -105,12 +106,12 @@
           {% for image in case.images %}
             {% if image.indexOf('composites') > -1 %}
               <a href="{{ image }}" data-pswp-height="1080" data-pswp-width="1080" target="_blank">
-              <img src="{{ image }}" alt="Print layout of {{ case.header }}" class="img-fluid">
+              <img src="{{ image }}" alt="{{ case.alts[loop.index0] }}" class="img-fluid">
             </a>
             {% endif %}
           {% endfor %}
         </div>
-        <!-- Layouts (if any) -->
+        <!-- Layouts if any of such -->
         {% if case.layouts and case.layouts | length > 0 %}
           <p style="text-align: center">
             <button class="toggle" data-toggle="collapse" href="#collapseExample{{ loop.index }}" role="button" aria-expanded="false" aria-controls="collapseExample{{ loop.index }}">
@@ -122,7 +123,7 @@
           <div class="card card-body">
             {% for layout in case.layouts %}
               {% if loop.index > 0 %}
-              <img class="layout" src="{{ layout }}" />
+              <img class="layout" src="{{ layout.path }}" alt="{{ layout.alt }}" />
               {% endif %}
             {% endfor %}
           </div>

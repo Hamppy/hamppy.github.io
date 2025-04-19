@@ -37,9 +37,7 @@
   {% block navbar %}
     <nav class="navbar navbar-expand-lg site-navigation">
       <div class="container">
-        <a class="navbar-brand" href="/">
-          <p class="tag">A. J. HÄMÄLÄINEN</p>
-        </a>
+        <p class="tag">A. J. HÄMÄLÄINEN</p>
         <button
           class="navbar-toggler collapsed"
           input-type="button"
@@ -56,7 +54,7 @@
           <ul class="navbar-nav ml-auto main-nav">
             {% for navLink in nav.navLinks %}
             <li class="nav-item">
-              {% if navLink == "home" and page.url != "/" %}
+              {% if navLink == "home" %}
                 <a class="nav-link" href="/">{{navLink | capitalize}}</a>
               {% elif navLink != "home" and page.url != "/" + navLink %}
                 <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a> 

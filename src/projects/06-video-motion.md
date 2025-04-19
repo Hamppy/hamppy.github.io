@@ -1,5 +1,5 @@
 ---
-subTitle: "VIDEO / MOTION / ANIMATION" 
+subTitle: "Video / Motion / Animation"
 title: "Screenworks"
 tags: portfolio
 order: 6

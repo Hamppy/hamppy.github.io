@@ -29,9 +29,19 @@ cases:
       - "/assets/images/projects/proto/veng-local-info.jpg"
       - "/assets/images/projects/proto/veng-1st-navi.jpg"
       - "/assets/images/projects/proto/veng-2nd-navi.jpg"
+    alts:
+      - "Login view and Figma prototype sheet."
+      - "Search layout on mobile crop view."
+      - "Flight plan layout on mobile crop view."
+      - "Flight detail layout on mobile crop view."
+      - "Local information layout on mobile crop view."
+      - "Main navigation column layout on mobile crop view."
+      - "Account and settings column layout on mobile crop view"
     layouts:
-      - "/assets/images/projects/layouts/veng-storyboard.jpg"
-      - "/assets/images/projects/layouts/veng-identity.jpg"
+      - path: "/assets/images/projects/layouts/veng-storyboard.jpg"
+        alt: "Sample user scenario of Veng as a storyboard."
+      - path: "/assets/images/projects/layouts/veng-identity.jpg"
+        alt: "Graphic identity of Veng."
 
   - header: "huoneistomyynti.com"
     description: |
@@ -45,11 +55,21 @@ cases:
       - "/assets/images/projects/web/huoneistomyynti-kohteet.jpg"
       - "/assets/images/projects/web/huoneistomyynti-form.jpg"
       - "/assets/images/projects/web/huoneistomyynti-yhteys.jpg"
+    alts:
+      - "Responsive layout of huoneistomyynti.com."
+      - "Responsive layout of home / index view on huoneistomyynti.com."
+      - "Responsive layout of currently available real estates on huoneistomyynti.com."
+      - "Responsive layout of contact form on huoneistomyynti.com."
+      - "Responsive layout of personnel / staff on huoneistomyynti.com."
     layouts:
-      - "/assets/images/projects/layouts/huoneistomyynti-index-layout.jpg"
-      - "/assets/images/projects/layouts/huoneistomyynti-kohteet-layout.jpg"
-      - "/assets/images/projects/layouts/huoneistomyynti-toiveasuntoni-layout.jpg"
-      - "/assets/images/projects/layouts/huoneistomyynti-yhteys-layout.jpg"
+      - path: "/assets/images/projects/layouts/huoneistomyynti-index-layout.jpg"
+        alt: "Comprehensive desktop layout of home / index on huoneistomyynti.com."
+      - path: "/assets/images/projects/layouts/huoneistomyynti-kohteet-layout.jpg"
+        alt: "Comprehensive desktop layout of available real estates view on huoneistomyynti.com."
+      - path: "/assets/images/projects/layouts/huoneistomyynti-toiveasuntoni-layout.jpg"
+        alt: "Comprehensive desktop layout of contact form view on huoneistomyynti.com."
+      - path: "/assets/images/projects/layouts/huoneistomyynti-yhteys-layout.jpg"
+        alt: "Comprehensive desktop layout of personnel / staff view on huoneistomyynti.com."
 
   - header: "fdo.fi"
     description: |
@@ -63,10 +83,19 @@ cases:
       - "/assets/images/projects/web/fdo-laji.jpg"
       - "/assets/images/projects/web/fdo-ajankohtaista.jpg"
       - "/assets/images/projects/web/fdo-kilpailut.jpg"
+    alts:
+      - "Responsive layout of fdo.fi."
+      - "Responsive layout of home / index view on fdo.fi."
+      - "Responsive layout of genre-specific subview on fdo.fi."
+      - "Responsive layout of news subview on fdo.fi."
+      - "Responsive layout of competitions subview on fdo.fi."
     layouts:
-      - "/assets/images/projects/layouts/fdo-index-layout.jpg"
-      - "/assets/images/projects/layouts/fdo-laji-layout.jpg"
-      - "/assets/images/projects/layouts/fdo-kilpailut-layout.jpg"
+      - path: "/assets/images/projects/layouts/fdo-index-layout.jpg"
+        alt: "Comprehensive desktop layout of fdo.fi"
+      - path: "/assets/images/projects/layouts/fdo-laji-layout.jpg"
+        alt: "Comprehensive desktop layout of genre-specific subview on fdo.fi"
+      - path: "/assets/images/projects/layouts/fdo-kilpailut-layout.jpg"
+        alt: "Comprehensive desktop layout of competitions sibview on fdo.fi."
 
   - header: "integral.fi (Deprecated)"
     description: |
@@ -79,11 +108,21 @@ cases:
       - "/assets/images/projects/web/integral-anturit.jpg"
       - "/assets/images/projects/web/integral-ohjelmistokehitys.jpg"
       - "/assets/images/projects/web/integral-wordpress.jpg"
+    alts:
+      - "Responsive layout of integral.fi (deprecated)."
+      - "Responsive layout of home / index view on integral.fi (deprecated)."
+      - "Responsive layout of product gallery on integral.fi (depracated)."
+      - "Responsive layout of software development subview on integral.fi (deprecated)."
+      - "Responsive layout of WordPress packages subview on integral.fi (deprecated)."
     layouts:
-      - "/assets/images/projects/layouts/integral-index-layout.jpg"
-      - "/assets/images/projects/layouts/integral-laitekatalogi-layout.jpg"
-      - "/assets/images/projects/layouts/integral-ohjelmistokehitys-layout.jpg"
-      - "/assets/images/projects/layouts/integral-wordpress-layout.jpg"
+      - path: "/assets/images/projects/layouts/integral-index-layout.jpg"
+        alt: "Comprehensive desktop layout of integral.fi (deprecated)."
+      - path: "/assets/images/projects/layouts/integral-laitekatalogi-layout.jpg"
+        alt: "Comprehensive desktop layout of product gallery on integral.fi (deprecated)."
+      - path: "/assets/images/projects/layouts/integral-ohjelmistokehitys-layout.jpg"
+        alt: "Comprehensive desktop layout of software development subview on integral.fi (deprecated)."
+      - path: "/assets/images/projects/layouts/integral-wordpress-layout.jpg"
+        alt: "Comprehensive desktop layout of WordPress packages subview on integral.fi (deprecated)."
   
   - header: "hotelzon.com (Deprecated)"
     description: |
@@ -98,8 +137,16 @@ cases:
       - "/assets/images/projects/web/hotelzon-index.jpg"
       - "/assets/images/projects/web/hotelzon-newsletter.jpg"
       - "/assets/images/projects/web/hotelzon-login.jpg"
+    alts:
+      - "Responsive layout of hotelzon.com (deprecated)."
+      - "Responsive layout of home / index view of hotelzon.com (deprecated)."
+      - "Content layout of hotelzon.com newsletter (deprecated)."
+      - "Responsive layout of hotelzon.com login (deprecated)."
     layouts:
-      - "/assets/images/projects/layouts/hotelzon-index-layout.jpg"
-      - "/assets/images/projects/layouts/hotelzon-newsletter-layout.jpg"
-      - "/assets/images/projects/layouts/hotelzon-login-layout.jpg"
+      - path: "/assets/images/projects/layouts/hotelzon-index-layout.jpg"
+        alt: "Comprehensive desktop layout of hotelzon.com index view (deprecated)."
+      - path: "/assets/images/projects/layouts/hotelzon-newsletter-layout.jpg"
+        alt: "Comprehensive email client layout of hotelzon.com newsletter (deprecated)."
+      - path: "/assets/images/projects/layouts/hotelzon-login-layout.jpg"
+        alt: "Comprehensive desktop layout of hotelzon.com login (deprecated)."
 ---

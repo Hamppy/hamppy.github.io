@@ -1,5 +1,5 @@
 ---
-subTitle: "CODE VIRAL CAMPAIGNS" 
+subTitle: "Code Viral Campaigns" 
 title: "Responsive web + print"
 tags: portfolio
 order: 2
@@ -21,10 +21,19 @@ cases:
       - "/assets/images/projects/web/reima-newsletter.jpg"
       - "/assets/images/projects/web/reima-selfmailer-folded.jpg"
       - "/assets/images/projects/web/reima-selfmailer-opened.jpg"
+    alts:
+      - "Responsive layout of Reima's campaing landing."
+      - "Responsive layout of Reima's campaign landing page."
+      - "Responsive layout of Reima's campaign-specific newsletter content."
+      - "Photo of Reima's campaign specific closed self-mailer envelope."
+      - "Photo of Reima's campaign specific opened self-mailer envelope."
     layouts:
-      - "/assets/images/projects/layouts/reima-index-layout.jpg"
-      - "/assets/images/projects/layouts/reima-email-layout.jpg"
-      - "/assets/images/projects/layouts/reima-selfmailer-layout.jpg"
+      - path: "/assets/images/projects/layouts/reima-index-layout.jpg"
+        alt: "Comprehensive desktop layout of Reima's campaign landing."
+      - path: "/assets/images/projects/layouts/reima-email-layout.jpg"
+        alt: "Comprehensive desktop layout of Reima's campaing-specific newsletter content."
+      - path: "/assets/images/projects/layouts/reima-selfmailer-layout.jpg"
+        alt: "Print layouts of Reima's campaign specific self-mailer envelope."
 
   - header: "Budget Sport Winter Festival"
     description: |
@@ -39,11 +48,21 @@ cases:
       - "/assets/images/projects/web/budgetsport-email.jpg"
       - "/assets/images/projects/web/budgetsport-result.jpg"
       - "/assets/images/projects/web/budgetsport-flyer.jpg"
+    alts:
+      - "Responsive layout of Budget Sport's campaign landing."
+      - "Responsive layout of Budget Sport's campaign landing page."
+      - "Responsive layout of Budget Sport's campaign-specific newsletter content."
+      - "Responsive layout of Budget Sport's campaign-specific lottery result subview."
+      - "Photo of Budget Sport's campaign specific activation flyer."
     layouts:
-      - "/assets/images/projects/layouts/budgetsport-index-layout.jpg"
-      - "/assets/images/projects/layouts/budgetsport-email-layout.jpg"
-      - "/assets/images/projects/layouts/budgetsport-result-layout.jpg"
-      - "/assets/images/projects/layouts/budgetsport-flyer-layout.jpg"
+      - path: "/assets/images/projects/layouts/budgetsport-index-layout.jpg"
+        alt: "Comprehensive desktop layout of Budget Sport's campaign landing."
+      - path: "/assets/images/projects/layouts/budgetsport-email-layout.jpg"
+        alt: "Comprehensive desktop layout of Budget Sport's campaign newsletter content."
+      - path: "/assets/images/projects/layouts/budgetsport-result-layout.jpg"
+        alt: "Comprehensive layout of Budget Sport's camapign-specific lottery result subview."
+      - path: "/assets/images/projects/layouts/budgetsport-flyer-layout.jpg"
+        alt: "Comprehensive layout of Budget Sport's campaign-specific activation flyer."
 
   - header: "Kärkkäinen Christmas Lottery"
     description: |
@@ -57,11 +76,21 @@ cases:
       - "/assets/images/projects/web/karkkainen-lottery.jpg"
       - "/assets/images/projects/web/karkkainen-email.jpg"
       - "/assets/images/projects/web/karkkainen-flyers.jpg"
+    alts:
+      - "Responsive layout of Kärkkäinen's campaign landing."
+      - "Responsive layout of Kärkkäinen's campaign landing page."
+      - "Responsive layout of Kärkkäinen's campaign-specific lottery result subview."
+      - "Responsive layout of Kärkkäinen's campaign-specific newsletter content."
+      - "Photo of Kärkkäinen's campaign-specific activation flyer."
     layouts:
-      - "/assets/images/projects/layouts/karkkainen-index-layout.jpg"
-      - "/assets/images/projects/layouts/karkkainen-result-layout.jpg"
-      - "/assets/images/projects/layouts/karkkainen-email-layout.jpg"
-      - "/assets/images/projects/layouts/karkkainen-flyer-layout.jpg"
+      - path: "/assets/images/projects/layouts/karkkainen-index-layout.jpg"
+        alt: "Comprehensive desktop layout of Kärkkäinen's campaign landing."
+      - path: "/assets/images/projects/layouts/karkkainen-result-layout.jpg"
+        alt: "Comprehensive desktop layout of Kärkkäinen's campaign-specific lottery result subview."
+      - path: "/assets/images/projects/layouts/karkkainen-email-layout.jpg"
+        alt: "Comprehensive desktop layout of Kärkkäinen's campaign-specific newsletter content."
+      - path: "/assets/images/projects/layouts/karkkainen-flyer-layout.jpg"
+        alt: "Print layout of Kärkkäinen's campaign-specific activation flyer."
 
   - header: "Stockmann Crazy Days"
     description: |
@@ -76,8 +105,17 @@ cases:
       - "/assets/images/projects/web/hullut-paivat-result.jpg"
       - "/assets/images/projects/web/hullut-paivat-invites.jpg"
       - "/assets/images/projects/web/hullut-paivat-flyers.jpg"
+    alts:
+      - "Responsive layout of Stockmann's campaign landing."
+      - "Responsive layout of Stockmann's campaing landing page."
+      - "Responsive layout of Stockmann's campaign-specific lottery result subview."
+      - "Responsive layout of Stockmann's campaing landing page form subview."
+      - "Photo of of Stockmann's campaign-specific activation flyer."
     layouts:
-      - "/assets/images/projects/layouts/hullut-paivat-index-layout.jpg"
-      - "/assets/images/projects/layouts/hullut-paivat-result-layout.jpg"
-      - "/assets/images/projects/layouts/hullut-paivat-flyers-layout.jpg"
+      - path: "/assets/images/projects/layouts/hullut-paivat-index-layout.jpg"
+        alt: "Comprehensive desktop layout of Stockmann's campaign landing."
+      - path: "/assets/images/projects/layouts/hullut-paivat-result-layout.jpg"
+        alt: "Comprehensive desktop layout of Stockmann's campaign-specific lottery result subview."
+      - path: "/assets/images/projects/layouts/hullut-paivat-flyers-layout.jpg"
+        alt: "Print layout of Stockmann's campaing-specific activation flyer."
 ---

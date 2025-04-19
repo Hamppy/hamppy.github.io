@@ -30,9 +30,15 @@ p, ul, ol {
 }
 h1 {
   font-size: 3.3rem;
+  margin-bottom: 40px;
+}
+.project-category {
+  text-align: center;
+  font-weight: 300;
 }
 h2 {
-  font-size: 50px;
+  font-size: 38px;
+  font-weight: 400;
 }
 h3 {
   font-size: 30px;
