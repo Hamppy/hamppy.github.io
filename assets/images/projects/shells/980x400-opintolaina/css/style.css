@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'OP Chevin Pro Light';
+  src: url('https://www.op.fi/static/@op/opux-static/v3/fonts/chevin-light.eot');/* IE9 Compat Modes */
   src: url('https://www.op.fi/static/@op/opux-static/v3/fonts/chevin-light.woff2') format('woff2'), /* Super Modern Browsers */
+  url('https://www.op.fi/static/@op/opux-static/v3/fonts/chevin-light.woff') format('woff'), /* Pretty Modern Browsers */
+  url('https://www.op.fi/static/@op/opux-static/v3/fonts/chevin-light.ttf') format('truetype')/* Safari, Android, iOS */
 }
 
 a,
