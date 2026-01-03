@@ -43,11 +43,6 @@
     "altText":"Docker"
     },
     {
-    "link":"https://backstage.io/",
-    "icon":"/assets/images/tools/backstage.svg",
-    "altText":"Spotify Backstage"
-    },
-    {
     "link":"https://www.atlassian.com/",
     "icon":"/assets/images/tools/atlassian.svg",
     "altText":"Atlassian"
