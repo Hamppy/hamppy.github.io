@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
@@ -27,10 +27,17 @@
     <link rel="stylesheet" href="/assets/vendor/bootstrap/bootstrap.min.css" />
     <!-- Stylesheets -->
     <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="/assets/css/stars.css" rel="stylesheet" />
 
     <!--Favicon-->
     <link rel="shortcut icon" href="/assets/images/favIcon.png" type="image/x-icon" />
     <link rel="icon" href="/assets/images/favIcon.png" type="image/x-icon" />
+
+    <!-- Theme Initialization Script -->
+    <script>
+      const theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+  </script>
   </head>
 
   <body>
@@ -38,6 +45,7 @@
     <nav class="navbar navbar-expand-lg site-navigation">
       <div class="container">
         <p class="tag">A. J. HÄMÄLÄINEN</p>
+
         <button
           class="navbar-toggler collapsed"
           input-type="button"
@@ -49,9 +57,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="sitenavbar">
-          <ul class="navbar-nav ml-auto main-nav">
+          <ul class="navbar-nav main-nav ml-auto">
             
             <li class="nav-item">
               
@@ -71,6 +79,14 @@
                
             </li>
             
+            <li class="nav-item">
+              <button
+                class="theme-toggler"
+                data-theme-toggle 
+                aria-label="Switch between light and dark theme"
+                >
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -916,7 +932,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="site-footer-heading">&#127912;&nbsp;VERSATILE DESIGNER&nbsp;&#128208;</div>
+            <div class="site-footer-heading">VERSATILE DESIGNER</div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="site-footer-widget">
@@ -994,7 +1010,7 @@
     </footer>
     <div>
       <div class="copyright">
-        <p style="color:#ffffff;">© Copyright 2025 - AJH - Built by using <a href="https://github.com/StaticMania/roxo-eleventy" target="_blank">Roxo Eleventy</a></p>
+        <p style="color:#ffffff;">© Copyright 2026 - AJH &#10033; Built with <a href="https://github.com/StaticMania/roxo-eleventy" target="_blank">Roxo Eleventy</a></p>
       </div>
     </div>
   
@@ -1002,5 +1018,6 @@
     <script src="/assets/vendor/jQuery/jquery.min.js"></script>
     <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/theme-toggle.js"></script>
   </body>
 </html>
