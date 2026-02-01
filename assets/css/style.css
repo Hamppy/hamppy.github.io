@@ -386,7 +386,7 @@ hr {
 }
 
 body {
-  background: var(--background);
+  background: var(--body);
   margin: 0;
   padding: 0;
 }
