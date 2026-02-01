@@ -34,3 +34,44 @@ $(window).on('scroll', function () {
     $('.site-navigation').removeClass('nav-bg');
   }
 });
+
+// Expander
+var coll = document.getElementsByClassName("expander");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+
+// Skill meter - triggers animation when section is visible
+function loadAnim() {
+  const skillset = document.querySelector('.skillset');
+  
+  if (!skillset) return;
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Animate all progress bars when section becomes visible
+        document.querySelectorAll('rect#progress').forEach(progress => {
+          progress.setAttribute('x', '0');
+        });
+        // Optional: Stop observing after animation triggers (runs only once)
+        observer.unobserve(skillset);
+      }
+    });
+  }, { threshold: 0.1 });
+  
+  observer.observe(skillset);
+}
+
+// Run when DOM is ready
+document.addEventListener('DOMContentLoaded', loadAnim);
+}

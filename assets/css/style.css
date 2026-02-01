@@ -12,9 +12,11 @@
   --cta: #304C6F;
   --footer: #304C6F;
   --hero: radial-gradient(ellipse at bottom, #00103C 0%, #304c6f 75%);
+  --progress: linear-gradient(135deg, #EC008C 0%, #FC6767 100%);
   --navbar: #FFFFFF;
   --navlink: #304C6F;
   --panel: #e1e3eb;
+  --peach: #FC6767;
   --prgtext: #3C3C3C;
   --hdltext: #00113E;
   --subhdltext: #304C6F;
@@ -33,10 +35,12 @@
   --cta: #FFFFFF;
   --footer: #182739;
   --hero: radial-gradient(ellipse at bottom, #304c6f 0%, #182739 75%);
+  --progress: linear-gradient(135deg, #EC008C 0%, #FC6767 100%);
+  --muted: #9aa7b8;
   --navbar: #182739;
   --navlink: #9aa7b8;
   --panel: #182739;
-  --muted: #9aa7b8;
+  --peach: #FC6767;
   --prgtext:#C2C2C2;
   --hdltext: #e6eef6;
   --subhdltext: #588CCC;
@@ -52,11 +56,15 @@ PROJECT:	Roxo HTML
 VERSION:	1.0.0
 -------------------------------------------------------------------*/
 
+rect#progress {
+        transition: all 1.3s ease-out;
+      }
+
 .tag {
   font-family: "Tiny5", sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
-  padding: 6px 12px 6px 12px;
+  padding: 4px 10px 4px 10px;
   border-radius: 2px;
   margin-bottom: 0;
   color: var(--white);
@@ -81,6 +89,12 @@ h1 {
   text-align: center;
   font-weight: 300;
 }
+.skill-category {
+  text-align: left;
+  font-weight: 200;
+  font-size: 24px;
+  margin-top: 20px;
+}
 h2 {
   font-size: 38px;
   font-weight: 400;
@@ -100,6 +114,34 @@ h6 {
   font-weight: 400;
   color: #FFFFFF;
 }
+
+.notch {
+  vertical-align: top;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.badge {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.position {
+  line-height: 32px;
+  margin-bottom: 0px;
+}
+
+hr {
+  border-top: 1px solid var(--brand);
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .position{
+    text-align: left;
+  }
+}
+
 .catchphrase {
   margin-top: 20px;
   font-size: 1.3rem;
@@ -221,6 +263,63 @@ h6 {
   border: none;
 }
 
+.expander .row {
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.expander {
+  background-color: var(--background);
+  color: var(--prgtext);
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-size: 15px;
+  display: inline-flex;
+}
+
+.active, .expander:hover {
+  border-bottom: none;
+  font-weight: 500;
+}
+
+.expander:after {
+  content: '\002B';
+  color: var(--brand);
+  font-weight: bold;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0px 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: var(--background);
+  border-bottom: 1px solid var(--brand);
+}
+
+.expertise {
+  background-color: var(--background);
+}
+
+.skillset {
+  background-color: var(--background);
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 991px) {
   .btn {
     padding: 17px 40px;
@@ -269,7 +368,7 @@ h6 {
 
 .btn-primary {
   background: #EAA4A4;
-  color: #fff;
+  color: #FFFFFF
 }
 .btn-primary:hover {
   background: #e07b7b;
@@ -287,7 +386,7 @@ h6 {
 }
 
 body {
-  background: var(--body);
+  background: var(--background);
   margin: 0;
   padding: 0;
 }
@@ -301,11 +400,11 @@ body {
   margin-bottom: 70px;
   text-align: center;
 }
-.tool-title-centered h3 {
-  margin-bottom: 50px;
+.exp-title-centered h2 {
+  margin: 50px 0px 20px 0px;
   text-align: center;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 991px) {
@@ -372,7 +471,6 @@ textarea.form-control {
 }
 
 .site-navigation {
-  padding: 20px 0;
   background-color: var(--navbar);
   position: fixed;
   top: 0;
@@ -389,9 +487,6 @@ textarea.form-control {
   }
 }
 @media screen and (max-width: 575px) {
-  .site-navigation {
-    padding: 15px;
-  }
   .btn .btn-area span::after {
     top: 133%;
     left: 25%;
@@ -499,12 +594,13 @@ textarea.form-control {
     border: 1px solid rgba(0, 0, 0, 0.09);
   }
 }
-
+/*
 @media screen and (max-width: 991px) {
   .site-hero {
     padding: 200px 0;
   }
 }
+*/
 .site-hero-content h1 {
   color: #FFFFFF;
   margin-bottom: 50px;
@@ -772,9 +868,6 @@ textarea.form-control {
     width: 100%;
   }
 }
-.site-project-single-description {
-  margin-bottom: 50px;
-}
 .site-project-single-description p {
   margin-bottom: 30px;
 }
@@ -1028,6 +1121,10 @@ textarea.form-control {
   }
 }
 
+button:focus {
+  outline: 1px dotted var(--brand);
+}
+
 .site-about-header {
   padding-top: 120px;
   background-color: var(--background);
@@ -1096,6 +1193,7 @@ textarea.form-control {
 }
 .site-expertise-list {
   padding: 0;
+  margin-left: 17px;
 }
 @media screen and (max-width: 575px) {
   .site-expertise-list {
@@ -1271,7 +1369,7 @@ textarea.form-control {
   font-size: 1.2rem;
   text-align: center;
   max-width: 220px;
-  padding: 6px 10px 6px 10px;
+  padding: 4px 10px 4px 10px;
   border-radius: 2px;
   margin-bottom: 33px;
   color:#FFFFFF;
@@ -1290,6 +1388,11 @@ textarea.form-control {
 @media screen and (max-width: 575px) {
   .site-footer-logo {
     text-align: center;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .container {
+    max-width: 680px;
   }
 }
 @media screen and (max-width: 991px) {

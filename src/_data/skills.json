@@ -1,0 +1,65 @@
+{
+  "title": "Skills",
+  "categories": [
+    {
+      "categoryName": "Design",
+      "skills": [
+        {
+          "name": "Accessibility",
+          "level": 255,
+          "status": "3 / 5"
+        },
+        {
+          "name": "Design Thinking",
+          "level": 215,
+          "status": "2.5 / 5"
+        },
+        {
+          "name": "Facilitation",
+          "level": 170,
+          "status": "2 / 5"
+        }
+      ]
+    },
+    {
+      "categoryName": "Tools",
+      "skills": [
+        {
+          "name": "Figma & Mural / Miro",
+          "level": 255,
+          "status": "3 / 5"
+        },
+        {
+          "name": "Adobe CC & Affinity",
+          "level": 300,
+          "status": "3.5 / 5"
+        },
+        {
+          "name": "Jira & Confluence",
+          "level": 215,
+          "status": "2.5 / 5"
+        }
+      ]
+    },
+    {
+      "categoryName": "Engineering",
+      "skills": [
+        {
+          "name": "Git",
+          "level": 253,
+          "status": "2.5 / 5"
+        },
+        {
+          "name": ".html / .css / .php / .js",
+          "level": 170,
+          "status": "2/ 5"
+        },
+        {
+          "name": "React / Vue / Angular",
+          "level": 130,
+          "status": "1.5 / 5"
+        }
+      ]
+    }
+  ]
+}

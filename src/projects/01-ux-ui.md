@@ -1,5 +1,5 @@
 ---
-subTitle: "UX / UI" 
+subTitle: "UX, UI, and Product Design" 
 title: "Web & App"
 tags: portfolio
 order: 1
@@ -7,6 +7,18 @@ img: "/assets/images/projects/rgb-thumb.jpg"
 alt: "Image for itemizing UX / UI category"
 linkText: "Take a look at the samples"
 cases:
+  - header: "OP Hub"
+    description: |
+        Originally initiated back in 2022 as "Documentation Portal (DOPO)" and currently being developed as a comprehensive platform for deployments of self-service sequencies, management of entity-specific documentation and distribution of concordanced cloud perimeter products. OP Hub has been established upon Spotify Backstage, an open framework for building up internal developer portals, and due to it's versatile customizability and extensibility tools like Confluence, Jira, Bitbucket, and GitHub have been integrated to augment <strong>D</strong>eveloper e<strong>X</strong>perience and to facilitate the adoption of software development engineering practices at OP.<br>
+        <p><strong>Product Owner</strong>: Jyrki Koistinen<br>
+        <strong>Lead Developer / Design Engineer</strong>: Heikki Hellgren<br>
+        </p>
+    images:
+      - "/assets/images/projects/web/ophub_index_desktop.jpg"
+      - "/assets/images/projects/web/ophub_catalog_desktop.jpg"
+      - "/assets/images/projects/web/ophub_search_desktop.jpg"
+      - "/assets/images/projects/web/ophub_hubert_desktop.jpg"
+      - "/assets/images/projects/web/ophub_self-services_desktop.jpg"
   - header: "Veng (Concept)"
     description: |
         Veng is a M.Eng.-degree affiliated study project aimed at designing a user-friendly smartphone application that would both simplify and streamline flight booking during the challenging times of COVID-19 restrictions. The goal was to address the unique challenges faced by travelers, including navigating rapidly changing travel guidelines, ensuring safety compliance, and accessing real-time region-specific Covid updates. The COVID-19 pandemic stated significant challenges for air travel, with frequent policy changes, mandatory testing, and restricted destinations so travelers needed a comprehensive tool for assisting the planning process as well as for minimizing stress, and to stay informed about safety protocols. Frequent travelers such as business professionals and individuals looking to travel safely and efficiently during the pandemic were considered as the primary target group.<br>

@@ -1,0 +1,264 @@
+{
+  "title":"Work experience",
+  "verifiedExperiences": 
+  [
+    {
+    "title":"UX / Product Designer",
+    "startDate":"Mar 2022",
+    "endDate":"Current",
+    "icon":"/assets/images/clients/op-financial-group.png",
+    "altText":"Logo of OP Financial Group cooperative",
+    "employer":"OP Financial Group",
+    "description":"Outlining use cases and user flows, designing responsive user interface layouts, and refining both usability and user experience in general with the help of OP Design System and MUI component libraries. Mapping out system requirements on a case-by-case basis by consulting and involving various stakeholder parties. In addition to prototyping and usability testing, I also strive to both utilize and cultivate my nascent front-end coding skills. In my role, I perform as an independent expert within a DevOps software development team.",
+    "badges":
+    [
+      "User research",
+      "User journey mapping",
+      "Usability testing",
+      "Prototyping",
+      "Figma",
+      "Mural",
+      "Adobe CC",
+      "Backstage.io",
+      "draw.io",
+      "GitHub",
+      "Bitbucket",
+      "Jira",
+      "Confluence",
+      "Optimizely",
+      "AWS",
+      "Sharepoint",
+      "MCP's",
+      ".html",
+      ".css",
+      ".js",
+      ".yaml",
+      ".json"
+    ]
+    },
+    {
+    "title":"Visual Designer",
+    "startDate":"Mar 2019",
+    "endDate":"Feb 2022",
+    "icon":"/assets/images/clients/op-financial-group.png",
+    "altText":"Logo of OP Financial Group cooperative",
+    "employer":"OP Financial Group",
+    "description":"Design, production and development of display advertising content according to customer acquisition methodology, business specific KPIs, corporate strategy and OP brand guidelines. Concept design, photography and videography for advertising. Landing page design, build up and optimisation plus web development according to OP Design System with a UI component library. Joint cooperation with Growth Marketing Lead, Digital Analyst, Content Specialist, a number of Web Developers, and Team Leader.",
+    "badges":
+    [
+      "User journey mapping",
+      "Adform",
+      "Adobe CC",
+      "Liferay",
+      "Sketch",
+      "InVision",
+      "Jira",
+      "Confluence",
+      "AWS",
+      ".html",
+      ".css"
+    ]
+    },
+    {
+    "title":"Art Director",
+    "startDate":"Apr 2017",
+    "endDate":"Mar 2019",
+    "icon":"/assets/images/clients/integral.png",
+    "altText":"Logo of Integral Ltd",
+    "employer":"Integral Oy",
+    "description":"Design, production and development of content marketing processes according to corporate strategy in co-operation with Marketing and Communication Manager. Refinement of the visual identity of Integral, clarification of the brand elements of Integral and procedures to broaden the brand awareness in general through social media channels. Also visual design, service design, production, and development contribution within various customers projects.",
+    "badges":
+    [
+      "Adobe CC",
+      "WordPress",
+      "Jira",
+      "Sugar CRM",
+      "Bootstrap",
+      "YouTube",
+      "Instagram",
+      "Facebook",
+      ".html",
+      ".css",
+      ".php"
+    ]
+    },
+    {
+    "title":"Brand Officer",
+    "startDate":"Feb 2016",
+    "endDate":"Apr 2017",
+    "icon":"/assets/images/clients/tripstax.png",
+    "altText":"Logo of Travelport Hotelzon Ltd",
+    "employer":"Travelport Hotelzon Finland Oy",
+    "description":"Visual content design, production and development for marketing automation, Wordpress CMS, social media channels and Google Display Network. Refining the brand identity from content marketing perspective together with Senior Marketing Manager and Communications Officer. Participating in to the practises of Hotelzon mobile app maintenance, update and deployment procedures. General quality control over the brand identity and visual content management of company website.",
+    "badges":
+    [
+      "Marketing automation",
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "WordPress",
+      "Typo 3",
+      "Oracle Eloqua",
+      "Bootstrap",
+      "YouTube",
+      "Instagram",
+      "Facebook",
+      ".html",
+      ".css",
+      ".php"
+    ]
+    },
+    {
+    "title":"Visual Designer",
+    "startDate":"Aug 2015",
+    "endDate":"Jan 2016",
+    "icon":"/assets/images/clients/seed-digital-media.png",
+    "altText":"Logo of Seed Digital Media Ltd",
+    "employer":"Seed Digital Media Oy",
+    "description":"Visual content design and production together with Content Producer, Strategic Planner and a group of Web Developers. Various outcomes composed mostly for omnichannel marketing purposes including code viral campaigns, email newsletters and display materials. Occasionally also content design and production for print and digital signage broadcast.",
+    "badges":
+    [
+      "Marketing automation",
+      "Concept design",
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "Google Web Designer",
+      "Photography",
+      ".html",
+      ".css"
+    ]
+    },
+    {
+    "title":"Art Director",
+    "startDate":"Jul 2014",
+    "endDate":"Jul 2015",
+    "icon":"/assets/images/clients/s-group.png",
+    "altText":"Logo of S Group",
+    "employer":"S Group",
+    "description":"Visual concept design, content production and quality control of campaign and event materials. Brand development for print, web and digital signage broadcast purposes. Extensive scope of design and production stages to conduct with emphasis to identify the features and characteristics of certain focus groups. Other responsibilites includes project management, material purchasing, and both internal and external recourcing.",
+    "badges":
+    [
+      "Concept design",
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "After Effects",
+      "Video editing",
+      "WordPress",
+      ".html",
+      ".css"
+    ]
+    },
+    {
+    "title":"Art Director / Graphic Designer",
+    "startDate":"Sep 2012",
+    "endDate":"May 2014",
+    "icon":"/assets/images/clients/hok-elanto.png",
+    "altText":"Logo of HOK Elanto Ltd",
+    "employer":"HOK Elanto Liiketoiminta Oy",
+    "description":"Visual concept design, content production and quality control of campaign and event materials. Brand development for print, web and digital signage broadcast purposes. Extensive scope of design and production stages to conduct with emphasis to identify the features and characteristics of certain focus groups. A hardcore Adobe Photoshop user with profound technical experience of creative imaging and image manipulation.",
+    "badges":
+    [ 
+      "Concept design",
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "Apple Motion",
+      "Photography",
+      "Video editing",
+      "Typo 3 CMS",
+      "WordPress",
+      ".html",
+      ".css"
+    ]
+    },
+        {
+    "title":"Graphic Designer",
+    "startDate":"Feb 2011",
+    "endDate":"Aug 2012",
+    "icon":"/assets/images/clients/hok-elanto.png",
+    "altText":"Logo of Travelport Hotelzon Ltd",
+    "employer":"HOK Elanto Liiketoiminta Oy",
+    "description":"Inhouse Graphic Designer of ABC, ABC Deli & ABC Carwash. Design, production, quality control and maintenance of marketing materials according to brand guidelines. Utilisation, development, and content management of digital signage system database. Both web and UI/UX design projects in cooperation with Mediasignal Communications.",
+    "badges":
+    [
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "After Effects",
+      "Flash",
+      "Photography",
+      "Typo 3",
+      "WordPress",
+      "UI/UX",
+      ".html",
+      ".css",
+      ".as"
+    ]
+    },
+    {
+    "title":"Freelance Graphic Designer",
+    "startDate":"Jan 2010",
+    "endDate":"Jan 2011",
+    "icon":"/assets/images/clients/freelancer.png",
+    "employer":"Self-employed",
+    "description":"Design on demand for Oy Fennopress Ab, Post Control Oy, Command Associates Limited, TV Tools Oy & Signaali Oy to name a few",
+    "badges":
+    [
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "After Effects",
+      "Photography",
+      ".html",
+      ".css"
+    ]
+    },
+    {
+    "title":"Graphic Designer",
+    "startDate":"Nov 2007",
+    "endDate":"Dec 2009",
+    "icon":"/assets/images/clients/klinger.png",
+    "altText":"Logo of Klinger Finland Ltd",
+    "employer":"Klinger Finland Oy",
+    "description":"Brand refinement and visual identity polishment for Aseko Oy, Meckelborg Oy and Klinger Ramikro Oy. Authorized to update, simplify and utilise the existing brand identity of each subsidiary for optimal online suitability. Additional responsibilities included the design and production of DTP-materials and demonstration videos, documenting organisational events and website development. Various tasks according to the following categories: Photography, Videography, Video editing and HTML & CSS.",
+    "badges":
+    [
+      "Autodesk 3ds Max",
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "Photography",
+      "Videography",
+      ".html",
+      ".css"
+    ]
+    },
+    {
+    "title":"3D Digital Film Artist",
+    "startDate":"Mar 2005",
+    "endDate":"Nov 2007",
+    "icon":"/assets/images/clients/generator.png",
+    "altText":"Logo of Generator Post",
+    "employer":"Generator Post Oy",
+    "description":"2D Animator, 3D Animator and Visual Effects Artist of cinema & TV post production. Primarily a 3D Modeller, 3D Animator and 3D Texture Painter in a group of artist focused on CGI effect design & creation. 3ds Max and Adobe Photoshop heavy user with elemental experience of print media production. Other tasks according to the following categories: Graphic design, Title design, Credits design, Storyboarding, Matte painting, Compositing and DVD Authoring.",
+    "badges":
+    [
+      "Autodesk 3ds Max",
+      "Autodesk Combustion",
+      "Adobe Photoshop",
+      "farmerswife",
+      "Storyboarding",
+      "Photography",
+      "CGI",
+      "VFX",
+      "Editing",
+      "Handscripting",
+      "DVD Authoring",
+      "3D graphics",
+      "2D Graphics"
+    ]
+    }
+  ]
+}

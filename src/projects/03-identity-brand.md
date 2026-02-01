@@ -1,5 +1,5 @@
 ---
-subTitle: "Identity / Brand" 
+subTitle: "Identity and Brand" 
 title: "Consistencies"
 tags: portfolio
 order: 3

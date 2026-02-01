@@ -28,7 +28,7 @@
     <!-- Stylesheets -->
     <link href="/assets/css/style.css" rel="stylesheet" />
     <link href="/assets/css/stars.css" rel="stylesheet" />
-
+    
     <!--Favicon-->
     <link rel="shortcut icon" href="/assets/images/favIcon.png" type="image/x-icon" />
     <link rel="icon" href="/assets/images/favIcon.png" type="image/x-icon" />
@@ -131,7 +131,7 @@
               <p class="site-footer-widget-title">{{footer.contactsHeading}}</p>
               <p class="site-footer-widget-description">
               {% for contactInfo in footer.contactsInfo %}
-                <a href="{{contactInfo.link}}{{contactInfo.text}}">a.j.hamalainen@outlook.com</a>
+                <i class="fa fa-envelope" aria-label="email"></i>&nbsp;<a href="{{contactInfo.link}}{{contactInfo.text}}">a.j.hamalainen@outlook.com</a>
                 <br>
               {% endfor %}
               </p>
@@ -142,7 +142,9 @@
               <p class="site-footer-widget-title">{{footer.socialHeading}}</p>
               <ul class="site-footer-widget-links">
                 {% for socialMedia in footer.socialMedia %}
-                <li><a href="https://www.linkedin.com/in/anttijoonas" target="_blank">{{socialMedia.text}}</a></li>
+                <li>
+                  <a href="https://www.linkedin.com/in/anttijoonas" target="_blank"><i class="fa fa-linkedin-square" aria-label="linkedin"></i>&nbsp;{{socialMedia.text}}</a>
+                </li>
                 {% endfor %}
               </ul>
             </div>

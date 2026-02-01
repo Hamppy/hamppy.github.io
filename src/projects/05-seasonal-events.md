@@ -1,5 +1,5 @@
 ---
-subTitle: "Seasonal / Event Advertising" 
+subTitle: "Seasonal and Event Advertising" 
 title: "Spectacles"
 tags: portfolio
 order: 5

@@ -1,5 +1,5 @@
 ---
-subTitle: "Service / Product Advertising" 
+subTitle: "Service and Product Advertising" 
 title: "Purchasables"
 tags: portfolio
 order: 4
