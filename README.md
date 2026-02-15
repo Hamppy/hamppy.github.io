@@ -1,46 +1,74 @@
-# Roxo Eleventy
+# Roxo Eleventy - Personal Portfolio
 
-Roxo is a digital agency theme for creative agencies, freelancers, graphic designers, photographers. Can be used for any kind of corporate websites who provides digital services with many expertise such as Design, Digital Products, Development, Campaign & Content, Employer Branding, Animation & Motion Graphics ,Packaging & Product Design, Retail & Spacial, Print & Editorial Design, Concept/Text, Information Design etc. Roxo ’s contact form is supported Fabform.io
-
-## Table of Contents
-
--  [Live Demo](#)
--  [Installation](#)
--  [Main Features](#)
--  [Support](#)
--  [Licensing](#)
--  [Hire](#)
-
-## Live Demo
+Roxo is a modern digital agency theme built with **Eleventy** and **Nunjucks** templating. Perfect for creative agencies, freelancers, graphic designers, photographers, and any professionals showcasing digital services. It features a responsive portfolio, blog, team profiles, skills assessment with animated meters, testimonials, and contact capabilities.
 
 Checkout the live demo [here](https://roxo-eleventy.staticmania.com/)
 
-## Installation
+## Overview
 
-1. Add the repository into your Eleventy Project repository by `git clone https://github.com/StaticMania/roxo-eleventy.git`
+This is a personal portfolio website built with Eleventy 3.0.0 featuring:
+- **Dynamic Content Management** - .json-based data files for all content
+- **Responsive Design** - Bootstrap 4 grid system
+- **Interactive Skill Meters** - SVG animations triggered on viewport visibility
+- **References** - .md-based project showcase
+- **Dark / Light UI theme** - Theme toggle with persistence support
+- **Performance Optimized** - Static site generation with fast load times
+- **Accessibility** - Semantic HTML and ARIA labels (WIP)
 
-2. Install npm dependencies by `npm install`
+## Project Structure Diagram
 
-3. Build and run project by `npx run dev` and see the result at `http://localhost:8080/`
+```mermaid
+graph TB
+    subgraph "CONTENT LAYER"
+        MD["**Markdown Files**<br/>(Site content)"]
+        JSON["**.json Data Files**<br/>(Skills & Expertises, etc)"]
+    end
+    
+    subgraph "TEMPLATE LAYER"
+        BASE["**base.njk**<br/>(Master Layout)"]
+        LAYOUTS["**.njk Layout Templates**<br/>(index, projects & about)"]
+    end
+    
+    subgraph "BUILD PROCESS"
+        ELEVENTY["**Eleventy 3.x**<br/>(Build Engine)"]
+        NUNJUCKS["**Nunjucks**<br/>(Template Engine)"]
+        ASSET["**Asset Processing**<br/>(Passthrough Copy)"]
+    end
+    
+    subgraph "OUTPUT"
+        STATIC["**Static HTML**<br/>(_site/)"]
+    end
+    
+    subgraph "BROWSER (UI) LAYER"
+        CSS["**CSS Styling**<br/>(Responsive Design)"]
+        JS["**JavaScript**<br/>(Interactions, Animations)"]
+        IMG["Images & Assets"]
+    end
+    
+    MD --> ELEVENTY
+    JSON --> ELEVENTY
+    ELEVENTY --> NUNJUCKS
+    BASE --> NUNJUCKS
+    LAYOUTS --> NUNJUCKS
+    NUNJUCKS --> STATIC
+    ASSET --> STATIC
+    
+    STATIC --> BROWSER["BROWSER"]
+    BROWSER --> CSS
+    BROWSER --> JS
+    BROWSER --> IMG
+    
+```
+## Technology Stack
 
-## Features
-
--  Responsive Ready.
--  Powered by Bootstrap 4.
--  Dedicated portfolio and blog page.
--  Well formatted code.
--  Easy Customization.
--  FabForm.io [form backend service](https://fabform.io)
--  Crafted for Design Agency/ Portfolio
-
-## Support
-
-Have some question or facing any technical trouble feel free to [Contact Us](https://staticmania.com/contact/)
-
-## Licensing
-
-This Repository is licensed under the [MIT](#) License
-
-## Hire
-
-Need help to build Eleventy websites with your custom requirements. Feel free to [contact](https://staticmania.com/contact/) with us. We provide custom development service for Eleventy.
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| Eleventy (11ty) | 3.0.0 | Static site generator |
+| Nunjucks | 3.2.4 | Template engine |
+| Bootstrap | 4.1.1 | CSS framework & grid |
+| jQuery | 3.3.1 | DOM manipulation |
+| PhotoSwipe | 5.4.4 | Lightbox gallery |
+| Font Awesome | 4.7.0 | Icon library |
+| Slick | 1.8.0 | Carousel / Slider |
+| GSAP / TweenMax | 1.19.0 | Animation library |
+| Sharp | 0.33.5 | Image processing |
