@@ -7,13 +7,13 @@ img: "/assets/images/projects/advertising-thumb.jpg"
 alt: "Image for itemizing advertising category"
 linkText: "Take a look at the samples"
 cases:
-  - header: "Bought Media Platfrom Advertising for OP Mortgages"
+  - header: "Bought Media Platfrom Advertising for OP Pohjola Mortgages"
     description: |
-        Various display advertising and social media advertising campaigns of OP Financial Group have combined the efficiency of media-buying and content deployment platforms, established online advertising networks of domestic media houses and visceral content production to maximize reach and customer engagement. Creatively, the campaigns have been collaboration driven launches, that have associated advertising agencies and production companies with in-house design department. Optimization has naturally played a significant role within the progress as well as within the success of each campaign. By maintaining an omnichannel presence and continuously optimizing the content, the campaigns have not only achieved but also exceeded targeted objectives.<br>
+        Various display advertising and social media advertising campaigns of OP Pohjola have combined the efficiency of media-buying and content deployment platforms, established online advertising networks of domestic media houses and visceral content production to maximize reach and customer engagement. Creatively, the campaigns have been collaboration driven launches, that have associated advertising agencies and production companies with in-house design department. Optimization has naturally played a significant role within the progress as well as within the success of each campaign. By maintaining an omnichannel presence and continuously optimizing the content, the campaigns have not only achieved but also exceeded targeted objectives.<br>
         <br>
         <strong>Content Producers</strong>: Hanna-Mari Kärri, Marianna Nolvi & Marika Pitkänen<br>
         <strong>Digital Marketing Specialist</strong>: Liisa Tammivuori<br>
-        <strong>Client</strong>: OP Financial Group
+        <strong>Client</strong>: OP Pohjola
     images:
       - "/assets/images/projects/shells/300x600-asuntolaina/index.html"
       - "/assets/images/projects/shells/300x600-opintolaina/index.html"
@@ -26,16 +26,16 @@ cases:
       - "/assets/images/projects/mp4/vertical/sina-teet-kodin-1080x1920-7s-A.mp4"
       - "/assets/images/projects/mp4/vertical/sina-teet-kodin-1080x1920-7s-B.mp4"
     alts:
-      - "300x600 html5 display advertising shell of OP's home loan."
-      - "300x600 html5 display advertising shell of OP's study loan."
-      - "468x400 html5 display advertising shell of OP's home loan."
-      - "468x400 html5 display advertising shell of OP's study loan."
-      - "980x400 html5 display advertising shell of OP's home loan."
-      - "980x400 html5 display advertising shell of OP's study loan."
-      - "Vertical display advertisement of OP's holiday home loan for Instagram."
-      - "Alternate vertical display advertisement of OP's holiday home loan for Instagram."
-      - "Vertical display advertisement of OP's home loan for Instagram."
-      - "Alternate vertical display advertisement of OP's home loan for Instagram."
+      - "300x600 html5 display advertising shell of OP Pohjola home loan."
+      - "300x600 html5 display advertising shell of OP Pohjola study loan."
+      - "468x400 html5 display advertising shell of OP Pohjola home loan."
+      - "468x400 html5 display advertising shell of OP Pohjola study loan."
+      - "980x400 html5 display advertising shell of OP Pohjola home loan."
+      - "980x400 html5 display advertising shell of OP Pohjola study loan."
+      - "Vertical display advertisement of OP Pohjola holiday home loan for Instagram."
+      - "Alternate vertical display advertisement of OP Pohjola holiday home loan for Instagram."
+      - "Vertical display advertisement of OP Pohjola home loan for Instagram."
+      - "Alternate vertical display advertisement of OP Pohjola home loan for Instagram."
       
   - header: "Monthly Beverage - Floating cross-category trojan"
     description: |
