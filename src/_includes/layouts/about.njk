@@ -77,6 +77,7 @@
         </div>
       </div>
     </section>
+    {#
     <section class="skillset">
       <div class="container">
         <div class="col-12">
@@ -184,7 +185,7 @@
         </div>
       </div>
     </section>
-    {# <section class="site-about-header">
+    <section class="site-about-header">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -242,19 +243,26 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>#}
 
     <section class="site-client">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="tool-title-centered">
-              <h3>{{tools.title}}</h3>
+              <h3 class="section-title-centered">{{tools.title}}</h3>
             </div>
             <div class="site-client-wrapper">
               {% for trustedTools in tools.trustedTools %}
               <div class="site-client-item">
-                <a href="{{trustedTools.link}}" target="_blank"><img class="icon" src="{{trustedTools.icon}}" alt="[{{trustedTools.altText}}]"></a>
+                <a href="{{trustedTools.link}}" target="_blank">
+                  {% if trustedTools.darkIcon %}
+                  <img class="icon icon-light" src="{{trustedTools.icon}}" alt="[{{trustedTools.altText}}]">
+                  <img class="icon icon-dark" src="{{trustedTools.darkIcon}}" alt="[{{trustedTools.altText}}]">
+                  {% else %}
+                  <img class="icon" src="{{trustedTools.icon}}" alt="[{{trustedTools.altText}}]">
+                  {% endif %}
+                </a>
               </div> 
               {% endfor %}
             </div>
@@ -262,7 +270,7 @@
         </div>
       </div>
     </section>
-
+    {#
     <section class="site-team">
       <div class="container">
         <div class="row">
@@ -297,5 +305,5 @@
           {% endfor %}
         </div>
       </div>
-    </section> #}
+    </section>#}
 {% endblock %}
